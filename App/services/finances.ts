@@ -8,7 +8,7 @@ export const getFinancialInfo = async() => {
 }
 
 const buildMessage = ({ current }) => {
-	return `TRM USD->COP: ${current.toFixed(2)}`
+	return `TRM USD->COP *${current.toFixed(2)}*`
 }
 
 const calculateFinanceInfo = async() => {

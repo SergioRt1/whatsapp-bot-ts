@@ -1,9 +1,9 @@
-import { Contact } from '../../src'
-import { store } from '../api/whatsApp'
+import { GroupMetadata } from '../../lib'
 import { getFinancialInfo } from './finances'
 
 export const sendMessage = async(contactName: string, sock) => {
-	const contactId = findContactID(contactName)
+	const groups = await sock.groupFetchAllParticipating()
+	const contactId = findContactID(contactName, groups)
 	const message = await getMessage()
 
 	if(contactId !== undefined && message !== undefined) {
@@ -15,26 +15,24 @@ const getMessage = async() => {
 	const message = await getFinancialInfo()
 	if(message) {
 		return {
-			text: message
+			text: `Bot: ${message}`,
 		}
 	}
 }
 
-const findContactID = (contactName: string): string | undefined => {
-	if(store) {
-		const contacts = searchForContact(contactName, store.contacts)
-		if(contacts.length > 0) {
-			console.log('Found contacts:', contacts, 'of:', contactName)
-			return contacts[0].id
-		}
+const findContactID = (contactName: string, groups: { [p: string]: GroupMetadata }): string | undefined => {
+	const contacts = searchForContact(contactName, groups)
+	if(contacts.length > 0) {
+		console.log('Found contacts:', contacts, 'of:', contactName)
+		return contacts[0].id
 	}
 }
 
-const searchForContact = (inputWord: string, contacts: { [_: string]: Contact }): SearchResult[] => {
+const searchForContact = (inputWord: string, groups: { [p: string]: GroupMetadata }): SearchResult[] => {
 	const matchingContacts: SearchResult[] = []
 
-	for(const id in contacts) {
-		const name = contacts[id].name
+	for(const id in groups) {
+		const name = groups[id].subject
 		const lowercaseWord = name?.toLowerCase()
 		const lowercaseInputWord = inputWord.toLowerCase()
 

@@ -1,6 +1,6 @@
 import { Boom } from '@hapi/boom'
 import NodeCache from 'node-cache'
-import makeWASocket, { DisconnectReason, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, makeInMemoryStore, useMultiFileAuthState } from '../../src'
+import makeWASocket, { fetchLatestBaileysVersion, makeCacheableSignalKeyStore, makeInMemoryStore, useMultiFileAuthState } from '../../src'
 import MAIN_LOGGER from '../../src/Utils/logger'
 
 const logger = MAIN_LOGGER.child({ })
@@ -57,12 +57,12 @@ const startSock = async() => {
 					// reconnect if not logged out
 					const disconnect = (lastDisconnect?.error as Boom)
 					if(disconnect.message === 'Connection Failure') {
-						removeData()
-					} else if(disconnect?.output?.statusCode !== DisconnectReason.loggedOut) {
-						startSock()
-					} else {
-						console.log('Connection closed. You are logged out.')
+						console.log(`${disconnect.message}. Removing data.`)
+						await removeData()
 					}
+
+					console.log('Connection closed. You are logged out. Retrying to reconnect.')
+					await startSock()
 				}
 
 				console.log('connection update', update)
