@@ -12,9 +12,14 @@ const init = async() => {
 	const sock = await startSock()
 
 	app.get('/api/sendText', async(req: Request, res: Response) => {
-		const groupName = process.env.GROUP_NAME || 'bas'
-		sendMessage(groupName, sock)
-		res.send('Hola, mundo!')
+		const groupName = req.query.group || process.env.GROUP_NAME || 'bas'
+
+		const response = await sendMessage(groupName, sock)
+		if(response && response.status !== 0) {
+			res.send('Message sent')
+		} else {
+			res.send('Message failed to send')
+		}
 	})
 
 	app.listen(PORT, () => {

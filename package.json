@@ -17,7 +17,7 @@
     "multi-device"
   ],
   "scripts": {
-    "run": "node --inspect -r ts-node/register App/server.ts",
+    "start": "node --inspect -r ts-node/register App/server.ts",
     "test": "jest",
     "prepare": "tsc",
     "build:all": "tsc && typedoc",
@@ -85,7 +85,7 @@
     "eslint": "^8.0.0",
     "jest": "^27.0.6",
     "jimp": "^0.16.1",
-    "link-preview-js": "^3.0.0",
+    "link-preview-js": "^3.0.4",
     "qrcode-terminal": "^0.12.0",
     "sharp": "^0.30.5",
     "ts-jest": "^27.0.3",

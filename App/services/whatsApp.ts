@@ -5,13 +5,19 @@ import { getFinancialInfo } from './finances'
 export const sendMessage = async(contactName: string, sock) => {
 	const contactId = findContactID(contactName)
 	const message = await getMessage()
+
 	if(contactId !== undefined && message !== undefined) {
-		await sock.sendMessage(contactId, { text: message })
+		return await sock.sendMessage(contactId, message)
 	}
 }
 
 const getMessage = async() => {
-	return await getFinancialInfo()
+	const message = await getFinancialInfo()
+	if(message) {
+		return {
+			text: message
+		}
+	}
 }
 
 const findContactID = (contactName: string): string | undefined => {
