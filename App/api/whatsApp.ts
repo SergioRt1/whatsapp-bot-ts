@@ -7,6 +7,7 @@ const logger = MAIN_LOGGER.child({ })
 logger.level = 'trace'
 
 const useStore = !process.argv.includes('--no-store')
+const useExternalAuth = process.env.EXTERNAL_AUTH_ENABLED === 'true'
 
 // external map to store retry counts of messages when decryption/encryption fails
 // keep this out of the socket itself, to prevent a message decryption/encryption loop across socket restarts
@@ -23,7 +24,7 @@ setInterval(() => {
 
 // start a connection
 const startSock = async() => {
-	const { state, saveCreds, removeData } = await useMultiFileAuthState('baileys_auth_info')
+	const { state, saveCreds, removeData } = await useMultiFileAuthState('baileys_auth_info', useExternalAuth)
 	// fetch latest version of WA Web
 	const { version, isLatest } = await fetchLatestBaileysVersion()
 	console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)

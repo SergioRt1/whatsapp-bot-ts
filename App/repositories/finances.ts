@@ -1,4 +1,4 @@
-import { instance } from './axios'
+import { instance } from '../resources/axios'
 
 
 const DOLLAR_URL = 'https://totoro.banrep.gov.co/estadisticas-economicas/rest/consultaDatosService/consultaMercadoCambiario'
