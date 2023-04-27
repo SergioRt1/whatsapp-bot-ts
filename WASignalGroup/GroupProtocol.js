@@ -256,6 +256,21 @@ $root.groupproto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SenderKeyMessage
+         * @function getTypeUrl
+         * @memberof groupproto.SenderKeyMessage
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderKeyMessage";
+        };
+
         return SenderKeyMessage;
     })();
 
@@ -528,6 +543,21 @@ $root.groupproto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SenderKeyDistributionMessage
+         * @function getTypeUrl
+         * @memberof groupproto.SenderKeyDistributionMessage
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyDistributionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderKeyDistributionMessage";
+        };
+
         return SenderKeyDistributionMessage;
     })();
 
@@ -747,6 +777,21 @@ $root.groupproto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SenderChainKey
+         * @function getTypeUrl
+         * @memberof groupproto.SenderChainKey
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderChainKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderChainKey";
+        };
+
         return SenderChainKey;
     })();
 
@@ -964,6 +1009,21 @@ $root.groupproto = (function() {
          */
         SenderMessageKey.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SenderMessageKey
+         * @function getTypeUrl
+         * @memberof groupproto.SenderMessageKey
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderMessageKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderMessageKey";
         };
 
         return SenderMessageKey;
@@ -1192,6 +1252,21 @@ $root.groupproto = (function() {
          */
         SenderSigningKey.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SenderSigningKey
+         * @function getTypeUrl
+         * @memberof groupproto.SenderSigningKey
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderSigningKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderSigningKey";
         };
 
         return SenderSigningKey;
@@ -1480,6 +1555,21 @@ $root.groupproto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SenderKeyStateStructure
+         * @function getTypeUrl
+         * @memberof groupproto.SenderKeyStateStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyStateStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderKeyStateStructure";
+        };
+
         return SenderKeyStateStructure;
     })();
 
@@ -1686,6 +1776,21 @@ $root.groupproto = (function() {
          */
         SenderKeyRecordStructure.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SenderKeyRecordStructure
+         * @function getTypeUrl
+         * @memberof groupproto.SenderKeyRecordStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyRecordStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/groupproto.SenderKeyRecordStructure";
         };
 
         return SenderKeyRecordStructure;

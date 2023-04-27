@@ -1,7 +1,7 @@
 # Whatsapp bot
 
 This project is a bot that writes WhatsApp messages. It uses the Typescript/Javascript WhatsApp Web API
-through **[Baileys](https://github.com/adiwajshing/Baileys)** to send messages to a WhatsApp group. It accomplishes this
+through **[Baileys](https://github.com/WhiskeySockets/Baileys)** to send messages to a WhatsApp group. It accomplishes this
 by
 creating an HTTP server with Express, where an endpoint `/api/sendText` is exposed and can receive an optional group
 name

@@ -24,14 +24,14 @@ const getImageProcessingLibrary = async() => {
 		(async() => {
 			const jimp = await (
 				import('jimp')
-					.catch(() => { })
+					.catch(() => undefined)
 			)
 			return jimp
 		})(),
 		(async() => {
 			const sharp = await (
 				import('sharp')
-					.catch(() => { })
+					.catch(() => undefined)
 			)
 			return sharp
 		})()

@@ -261,6 +261,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for ADVDeviceIdentity
+         * @function getTypeUrl
+         * @memberof proto.ADVDeviceIdentity
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ADVDeviceIdentity.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ADVDeviceIdentity";
+        };
+
         return ADVDeviceIdentity;
     })();
 
@@ -554,6 +569,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for ADVKeyIndexList
+         * @function getTypeUrl
+         * @memberof proto.ADVKeyIndexList
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ADVKeyIndexList.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ADVKeyIndexList";
+        };
+
         return ADVKeyIndexList;
     })();
 
@@ -844,6 +874,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for ADVSignedDeviceIdentity
+         * @function getTypeUrl
+         * @memberof proto.ADVSignedDeviceIdentity
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ADVSignedDeviceIdentity.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ADVSignedDeviceIdentity";
+        };
+
         return ADVSignedDeviceIdentity;
     })();
 
@@ -1070,6 +1115,21 @@ $root.proto = (function() {
          */
         ADVSignedDeviceIdentityHMAC.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for ADVSignedDeviceIdentityHMAC
+         * @function getTypeUrl
+         * @memberof proto.ADVSignedDeviceIdentityHMAC
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ADVSignedDeviceIdentityHMAC.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ADVSignedDeviceIdentityHMAC";
         };
 
         return ADVSignedDeviceIdentityHMAC;
@@ -1300,6 +1360,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for ADVSignedKeyIndexList
+         * @function getTypeUrl
+         * @memberof proto.ADVSignedKeyIndexList
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ADVSignedKeyIndexList.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ADVSignedKeyIndexList";
+        };
+
         return ADVSignedKeyIndexList;
     })();
 
@@ -1508,6 +1583,21 @@ $root.proto = (function() {
          */
         ActionLink.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for ActionLink
+         * @function getTypeUrl
+         * @memberof proto.ActionLink
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ActionLink.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ActionLink";
         };
 
         return ActionLink;
@@ -1764,6 +1854,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for AutoDownloadSettings
+         * @function getTypeUrl
+         * @memberof proto.AutoDownloadSettings
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        AutoDownloadSettings.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.AutoDownloadSettings";
+        };
+
         return AutoDownloadSettings;
     })();
 
@@ -1972,6 +2077,21 @@ $root.proto = (function() {
          */
         AvatarUserSettings.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for AvatarUserSettings
+         * @function getTypeUrl
+         * @memberof proto.AvatarUserSettings
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        AvatarUserSettings.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.AvatarUserSettings";
         };
 
         return AvatarUserSettings;
@@ -2300,6 +2420,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for BizAccountLinkInfo
+         * @function getTypeUrl
+         * @memberof proto.BizAccountLinkInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        BizAccountLinkInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.BizAccountLinkInfo";
+        };
+
+        /**
          * AccountType enum.
          * @name proto.BizAccountLinkInfo.AccountType
          * @enum {number}
@@ -2547,6 +2682,21 @@ $root.proto = (function() {
          */
         BizAccountPayload.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for BizAccountPayload
+         * @function getTypeUrl
+         * @memberof proto.BizAccountPayload
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        BizAccountPayload.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.BizAccountPayload";
         };
 
         return BizAccountPayload;
@@ -2969,6 +3119,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for BizIdentityInfo
+         * @function getTypeUrl
+         * @memberof proto.BizIdentityInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        BizIdentityInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.BizIdentityInfo";
+        };
+
+        /**
          * ActualActorsType enum.
          * @name proto.BizIdentityInfo.ActualActorsType
          * @enum {number}
@@ -3232,6 +3397,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for CertChain
+         * @function getTypeUrl
+         * @memberof proto.CertChain
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        CertChain.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.CertChain";
+        };
+
         CertChain.NoiseCertificate = (function() {
 
             /**
@@ -3455,6 +3635,21 @@ $root.proto = (function() {
              */
             NoiseCertificate.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for NoiseCertificate
+             * @function getTypeUrl
+             * @memberof proto.CertChain.NoiseCertificate
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            NoiseCertificate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.CertChain.NoiseCertificate";
             };
 
             NoiseCertificate.Details = (function() {
@@ -3765,6 +3960,21 @@ $root.proto = (function() {
                  */
                 Details.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Details
+                 * @function getTypeUrl
+                 * @memberof proto.CertChain.NoiseCertificate.Details
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Details.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.CertChain.NoiseCertificate.Details";
                 };
 
                 return Details;
@@ -4760,6 +4970,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for ClientPayload
+         * @function getTypeUrl
+         * @memberof proto.ClientPayload
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ClientPayload.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ClientPayload";
+        };
+
+        /**
          * ConnectReason enum.
          * @name proto.ClientPayload.ConnectReason
          * @enum {number}
@@ -5054,6 +5279,21 @@ $root.proto = (function() {
              */
             DNSSource.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for DNSSource
+             * @function getTypeUrl
+             * @memberof proto.ClientPayload.DNSSource
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DNSSource.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ClientPayload.DNSSource";
             };
 
             /**
@@ -5488,6 +5728,21 @@ $root.proto = (function() {
              */
             DevicePairingRegistrationData.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for DevicePairingRegistrationData
+             * @function getTypeUrl
+             * @memberof proto.ClientPayload.DevicePairingRegistrationData
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DevicePairingRegistrationData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ClientPayload.DevicePairingRegistrationData";
             };
 
             return DevicePairingRegistrationData;
@@ -6168,6 +6423,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for UserAgent
+             * @function getTypeUrl
+             * @memberof proto.ClientPayload.UserAgent
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            UserAgent.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ClientPayload.UserAgent";
+            };
+
             UserAgent.AppVersion = (function() {
 
                 /**
@@ -6439,6 +6709,21 @@ $root.proto = (function() {
                  */
                 AppVersion.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for AppVersion
+                 * @function getTypeUrl
+                 * @memberof proto.ClientPayload.UserAgent.AppVersion
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                AppVersion.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.ClientPayload.UserAgent.AppVersion";
                 };
 
                 return AppVersion;
@@ -6823,6 +7108,21 @@ $root.proto = (function() {
              */
             WebInfo.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for WebInfo
+             * @function getTypeUrl
+             * @memberof proto.ClientPayload.WebInfo
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            WebInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ClientPayload.WebInfo";
             };
 
             /**
@@ -7257,6 +7557,21 @@ $root.proto = (function() {
                  */
                 WebdPayload.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for WebdPayload
+                 * @function getTypeUrl
+                 * @memberof proto.ClientPayload.WebInfo.WebdPayload
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                WebdPayload.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.ClientPayload.WebInfo.WebdPayload";
                 };
 
                 return WebdPayload;
@@ -8153,6 +8468,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for ContextInfo
+         * @function getTypeUrl
+         * @memberof proto.ContextInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ContextInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ContextInfo";
+        };
+
         ContextInfo.AdReplyInfo = (function() {
 
             /**
@@ -8429,6 +8759,21 @@ $root.proto = (function() {
              */
             AdReplyInfo.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for AdReplyInfo
+             * @function getTypeUrl
+             * @memberof proto.ContextInfo.AdReplyInfo
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AdReplyInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ContextInfo.AdReplyInfo";
             };
 
             /**
@@ -8927,6 +9272,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ExternalAdReplyInfo
+             * @function getTypeUrl
+             * @memberof proto.ContextInfo.ExternalAdReplyInfo
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ExternalAdReplyInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ContextInfo.ExternalAdReplyInfo";
+            };
+
+            /**
              * MediaType enum.
              * @name proto.ContextInfo.ExternalAdReplyInfo.MediaType
              * @enum {number}
@@ -9150,6 +9510,21 @@ $root.proto = (function() {
              */
             UTMInfo.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for UTMInfo
+             * @function getTypeUrl
+             * @memberof proto.ContextInfo.UTMInfo
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            UTMInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.ContextInfo.UTMInfo";
             };
 
             return UTMInfo;
@@ -10447,6 +10822,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for Conversation
+         * @function getTypeUrl
+         * @memberof proto.Conversation
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Conversation.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Conversation";
+        };
+
+        /**
          * EndOfHistoryTransferType enum.
          * @name proto.Conversation.EndOfHistoryTransferType
          * @enum {number}
@@ -10854,6 +11244,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for DeviceListMetadata
+         * @function getTypeUrl
+         * @memberof proto.DeviceListMetadata
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        DeviceListMetadata.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.DeviceListMetadata";
+        };
+
         return DeviceListMetadata;
     })();
 
@@ -11233,6 +11638,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for DeviceProps
+         * @function getTypeUrl
+         * @memberof proto.DeviceProps
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        DeviceProps.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.DeviceProps";
+        };
+
         DeviceProps.AppVersion = (function() {
 
             /**
@@ -11506,6 +11926,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AppVersion
+             * @function getTypeUrl
+             * @memberof proto.DeviceProps.AppVersion
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppVersion.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.DeviceProps.AppVersion";
+            };
+
             return AppVersion;
         })();
 
@@ -11736,6 +12171,21 @@ $root.proto = (function() {
              */
             HistorySyncConfig.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for HistorySyncConfig
+             * @function getTypeUrl
+             * @memberof proto.DeviceProps.HistorySyncConfig
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HistorySyncConfig.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.DeviceProps.HistorySyncConfig";
             };
 
             return HistorySyncConfig;
@@ -11993,6 +12443,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for DisappearingMode
+         * @function getTypeUrl
+         * @memberof proto.DisappearingMode
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        DisappearingMode.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.DisappearingMode";
+        };
+
+        /**
          * Initiator enum.
          * @name proto.DisappearingMode.Initiator
          * @enum {number}
@@ -12232,6 +12697,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for EphemeralSetting
+         * @function getTypeUrl
+         * @memberof proto.EphemeralSetting
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        EphemeralSetting.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.EphemeralSetting";
+        };
+
         return EphemeralSetting;
     })();
 
@@ -12454,6 +12934,21 @@ $root.proto = (function() {
          */
         ExitCode.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for ExitCode
+         * @function getTypeUrl
+         * @memberof proto.ExitCode
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ExitCode.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ExitCode";
         };
 
         return ExitCode;
@@ -12793,6 +13288,21 @@ $root.proto = (function() {
          */
         ExternalBlobReference.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for ExternalBlobReference
+         * @function getTypeUrl
+         * @memberof proto.ExternalBlobReference
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ExternalBlobReference.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ExternalBlobReference";
         };
 
         return ExternalBlobReference;
@@ -13265,6 +13775,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for GlobalSettings
+         * @function getTypeUrl
+         * @memberof proto.GlobalSettings
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        GlobalSettings.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.GlobalSettings";
+        };
+
         return GlobalSettings;
     })();
 
@@ -13473,6 +13998,21 @@ $root.proto = (function() {
          */
         GroupMention.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for GroupMention
+         * @function getTypeUrl
+         * @memberof proto.GroupMention
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        GroupMention.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.GroupMention";
         };
 
         return GroupMention;
@@ -13701,6 +14241,21 @@ $root.proto = (function() {
          */
         GroupParticipant.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for GroupParticipant
+         * @function getTypeUrl
+         * @memberof proto.GroupParticipant
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        GroupParticipant.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.GroupParticipant";
         };
 
         /**
@@ -13966,6 +14521,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for HandshakeMessage
+         * @function getTypeUrl
+         * @memberof proto.HandshakeMessage
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        HandshakeMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.HandshakeMessage";
+        };
+
         HandshakeMessage.ClientFinish = (function() {
 
             /**
@@ -14189,6 +14759,21 @@ $root.proto = (function() {
              */
             ClientFinish.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ClientFinish
+             * @function getTypeUrl
+             * @memberof proto.HandshakeMessage.ClientFinish
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ClientFinish.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HandshakeMessage.ClientFinish";
             };
 
             return ClientFinish;
@@ -14450,6 +15035,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ClientHello
+             * @function getTypeUrl
+             * @memberof proto.HandshakeMessage.ClientHello
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ClientHello.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HandshakeMessage.ClientHello";
+            };
+
             return ClientHello;
         })();
 
@@ -14707,6 +15307,21 @@ $root.proto = (function() {
              */
             ServerHello.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ServerHello
+             * @function getTypeUrl
+             * @memberof proto.HandshakeMessage.ServerHello
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ServerHello.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HandshakeMessage.ServerHello";
             };
 
             return ServerHello;
@@ -15280,6 +15895,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for HistorySync
+         * @function getTypeUrl
+         * @memberof proto.HistorySync
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        HistorySync.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.HistorySync";
+        };
+
+        /**
          * HistorySyncType enum.
          * @name proto.HistorySync.HistorySyncType
          * @enum {number}
@@ -15530,6 +16160,21 @@ $root.proto = (function() {
          */
         HistorySyncMsg.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for HistorySyncMsg
+         * @function getTypeUrl
+         * @memberof proto.HistorySyncMsg
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        HistorySyncMsg.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.HistorySyncMsg";
         };
 
         return HistorySyncMsg;
@@ -15834,6 +16479,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for HydratedTemplateButton
+         * @function getTypeUrl
+         * @memberof proto.HydratedTemplateButton
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        HydratedTemplateButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.HydratedTemplateButton";
+        };
+
         HydratedTemplateButton.HydratedCallButton = (function() {
 
             /**
@@ -16039,6 +16699,21 @@ $root.proto = (function() {
              */
             HydratedCallButton.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for HydratedCallButton
+             * @function getTypeUrl
+             * @memberof proto.HydratedTemplateButton.HydratedCallButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HydratedCallButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HydratedTemplateButton.HydratedCallButton";
             };
 
             return HydratedCallButton;
@@ -16251,6 +16926,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for HydratedQuickReplyButton
+             * @function getTypeUrl
+             * @memberof proto.HydratedTemplateButton.HydratedQuickReplyButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HydratedQuickReplyButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HydratedTemplateButton.HydratedQuickReplyButton";
+            };
+
             return HydratedQuickReplyButton;
         })();
 
@@ -16459,6 +17149,21 @@ $root.proto = (function() {
              */
             HydratedURLButton.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for HydratedURLButton
+             * @function getTypeUrl
+             * @memberof proto.HydratedTemplateButton.HydratedURLButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HydratedURLButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.HydratedTemplateButton.HydratedURLButton";
             };
 
             return HydratedURLButton;
@@ -16690,6 +17395,21 @@ $root.proto = (function() {
          */
         IdentityKeyPairStructure.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for IdentityKeyPairStructure
+         * @function getTypeUrl
+         * @memberof proto.IdentityKeyPairStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        IdentityKeyPairStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.IdentityKeyPairStructure";
         };
 
         return IdentityKeyPairStructure;
@@ -16945,6 +17665,21 @@ $root.proto = (function() {
          */
         InteractiveAnnotation.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for InteractiveAnnotation
+         * @function getTypeUrl
+         * @memberof proto.InteractiveAnnotation
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        InteractiveAnnotation.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.InteractiveAnnotation";
         };
 
         return InteractiveAnnotation;
@@ -17310,6 +18045,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for KeepInChat
+         * @function getTypeUrl
+         * @memberof proto.KeepInChat
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        KeepInChat.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.KeepInChat";
+        };
+
         return KeepInChat;
     })();
 
@@ -17520,6 +18270,21 @@ $root.proto = (function() {
          */
         KeyId.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for KeyId
+         * @function getTypeUrl
+         * @memberof proto.KeyId
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        KeyId.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.KeyId";
         };
 
         return KeyId;
@@ -17754,6 +18519,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for LocalizedName
+         * @function getTypeUrl
+         * @memberof proto.LocalizedName
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        LocalizedName.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.LocalizedName";
+        };
+
         return LocalizedName;
     })();
 
@@ -17986,6 +18766,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for Location
+         * @function getTypeUrl
+         * @memberof proto.Location
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Location.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Location";
+        };
+
         return Location;
     })();
 
@@ -18171,6 +18966,21 @@ $root.proto = (function() {
          */
         MediaData.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for MediaData
+         * @function getTypeUrl
+         * @memberof proto.MediaData
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MediaData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MediaData";
         };
 
         return MediaData;
@@ -18426,6 +19236,21 @@ $root.proto = (function() {
          */
         MediaRetryNotification.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for MediaRetryNotification
+         * @function getTypeUrl
+         * @memberof proto.MediaRetryNotification
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MediaRetryNotification.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MediaRetryNotification";
         };
 
         /**
@@ -20135,6 +20960,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for Message
+         * @function getTypeUrl
+         * @memberof proto.Message
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Message.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Message";
+        };
+
         Message.AppStateFatalExceptionNotification = (function() {
 
             /**
@@ -20372,6 +21212,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AppStateFatalExceptionNotification
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateFatalExceptionNotification
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateFatalExceptionNotification.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateFatalExceptionNotification";
+            };
+
             return AppStateFatalExceptionNotification;
         })();
 
@@ -20590,6 +21445,21 @@ $root.proto = (function() {
              */
             AppStateSyncKey.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for AppStateSyncKey
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKey
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKey";
             };
 
             return AppStateSyncKey;
@@ -20852,6 +21722,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AppStateSyncKeyData
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKeyData
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKeyData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKeyData";
+            };
+
             return AppStateSyncKeyData;
         })();
 
@@ -21109,6 +21994,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AppStateSyncKeyFingerprint
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKeyFingerprint
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKeyFingerprint.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKeyFingerprint";
+            };
+
             return AppStateSyncKeyFingerprint;
         })();
 
@@ -21303,6 +22203,21 @@ $root.proto = (function() {
              */
             AppStateSyncKeyId.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for AppStateSyncKeyId
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKeyId
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKeyId.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKeyId";
             };
 
             return AppStateSyncKeyId;
@@ -21513,6 +22428,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AppStateSyncKeyRequest
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKeyRequest
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKeyRequest.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKeyRequest";
+            };
+
             return AppStateSyncKeyRequest;
         })();
 
@@ -21719,6 +22649,21 @@ $root.proto = (function() {
              */
             AppStateSyncKeyShare.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for AppStateSyncKeyShare
+             * @function getTypeUrl
+             * @memberof proto.Message.AppStateSyncKeyShare
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AppStateSyncKeyShare.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AppStateSyncKeyShare";
             };
 
             return AppStateSyncKeyShare;
@@ -22295,6 +23240,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AudioMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.AudioMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AudioMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.AudioMessage";
+            };
+
             return AudioMessage;
         })();
 
@@ -22813,6 +23773,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ButtonsMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ButtonsMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ButtonsMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ButtonsMessage";
+            };
+
             ButtonsMessage.Button = (function() {
 
                 /**
@@ -23092,6 +24067,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for Button
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ButtonsMessage.Button
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Button.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ButtonsMessage.Button";
+                };
+
                 Button.ButtonText = (function() {
 
                     /**
@@ -23274,6 +24264,21 @@ $root.proto = (function() {
                      */
                     ButtonText.prototype.toJSON = function toJSON() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                    };
+
+                    /**
+                     * Gets the default type url for ButtonText
+                     * @function getTypeUrl
+                     * @memberof proto.Message.ButtonsMessage.Button.ButtonText
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    ButtonText.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.ButtonsMessage.Button.ButtonText";
                     };
 
                     return ButtonText;
@@ -23484,6 +24489,21 @@ $root.proto = (function() {
                      */
                     NativeFlowInfo.prototype.toJSON = function toJSON() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                    };
+
+                    /**
+                     * Gets the default type url for NativeFlowInfo
+                     * @function getTypeUrl
+                     * @memberof proto.Message.ButtonsMessage.Button.NativeFlowInfo
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    NativeFlowInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.ButtonsMessage.Button.NativeFlowInfo";
                     };
 
                     return NativeFlowInfo;
@@ -23824,6 +24844,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ButtonsResponseMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ButtonsResponseMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ButtonsResponseMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ButtonsResponseMessage";
+            };
+
+            /**
              * Type enum.
              * @name proto.Message.ButtonsResponseMessage.Type
              * @enum {number}
@@ -24109,6 +25144,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for Call
+             * @function getTypeUrl
+             * @memberof proto.Message.Call
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            Call.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.Call";
+            };
+
             return Call;
         })();
 
@@ -24299,6 +25349,21 @@ $root.proto = (function() {
              */
             CancelPaymentRequestMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for CancelPaymentRequestMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.CancelPaymentRequestMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            CancelPaymentRequestMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.CancelPaymentRequestMessage";
             };
 
             return CancelPaymentRequestMessage;
@@ -24509,6 +25574,21 @@ $root.proto = (function() {
              */
             Chat.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for Chat
+             * @function getTypeUrl
+             * @memberof proto.Message.Chat
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            Chat.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.Chat";
             };
 
             return Chat;
@@ -24746,6 +25826,21 @@ $root.proto = (function() {
              */
             ContactMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ContactMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ContactMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ContactMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ContactMessage";
             };
 
             return ContactMessage;
@@ -25007,6 +26102,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ContactsArrayMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ContactsArrayMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ContactsArrayMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ContactsArrayMessage";
+            };
+
             return ContactsArrayMessage;
         })();
 
@@ -25197,6 +26307,21 @@ $root.proto = (function() {
              */
             DeclinePaymentRequestMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for DeclinePaymentRequestMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.DeclinePaymentRequestMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DeclinePaymentRequestMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.DeclinePaymentRequestMessage";
             };
 
             return DeclinePaymentRequestMessage;
@@ -25434,6 +26559,21 @@ $root.proto = (function() {
              */
             DeviceSentMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for DeviceSentMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.DeviceSentMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DeviceSentMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.DeviceSentMessage";
             };
 
             return DeviceSentMessage;
@@ -26129,6 +27269,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for DocumentMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.DocumentMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DocumentMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.DocumentMessage";
+            };
+
             return DocumentMessage;
         })();
 
@@ -26382,6 +27537,21 @@ $root.proto = (function() {
              */
             EncReactionMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for EncReactionMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.EncReactionMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            EncReactionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.EncReactionMessage";
             };
 
             return EncReactionMessage;
@@ -27260,6 +28430,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ExtendedTextMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ExtendedTextMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ExtendedTextMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ExtendedTextMessage";
+            };
+
+            /**
              * FontType enum.
              * @name proto.Message.ExtendedTextMessage.FontType
              * @enum {number}
@@ -27513,6 +28698,21 @@ $root.proto = (function() {
              */
             FutureProofMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for FutureProofMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.FutureProofMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            FutureProofMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.FutureProofMessage";
             };
 
             return FutureProofMessage;
@@ -27896,6 +29096,21 @@ $root.proto = (function() {
              */
             GroupInviteMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for GroupInviteMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.GroupInviteMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            GroupInviteMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.GroupInviteMessage";
             };
 
             /**
@@ -28320,6 +29535,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for HighlyStructuredMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.HighlyStructuredMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HighlyStructuredMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage";
+            };
+
             HighlyStructuredMessage.HSMLocalizableParameter = (function() {
 
                 /**
@@ -28585,6 +29815,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for HSMLocalizableParameter
+                 * @function getTypeUrl
+                 * @memberof proto.Message.HighlyStructuredMessage.HSMLocalizableParameter
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                HSMLocalizableParameter.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage.HSMLocalizableParameter";
+                };
+
                 HSMLocalizableParameter.HSMCurrency = (function() {
 
                     /**
@@ -28804,6 +30049,21 @@ $root.proto = (function() {
                      */
                     HSMCurrency.prototype.toJSON = function toJSON() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                    };
+
+                    /**
+                     * Gets the default type url for HSMCurrency
+                     * @function getTypeUrl
+                     * @memberof proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    HSMCurrency.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency";
                     };
 
                     return HSMCurrency;
@@ -29049,6 +30309,21 @@ $root.proto = (function() {
                      */
                     HSMDateTime.prototype.toJSON = function toJSON() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                    };
+
+                    /**
+                     * Gets the default type url for HSMDateTime
+                     * @function getTypeUrl
+                     * @memberof proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    HSMDateTime.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime";
                     };
 
                     HSMDateTime.HSMDateTimeComponent = (function() {
@@ -29420,6 +30695,21 @@ $root.proto = (function() {
                         };
 
                         /**
+                         * Gets the default type url for HSMDateTimeComponent
+                         * @function getTypeUrl
+                         * @memberof proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent
+                         * @static
+                         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                         * @returns {string} The default type url
+                         */
+                        HSMDateTimeComponent.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                            if (typeUrlPrefix === undefined) {
+                                typeUrlPrefix = "type.googleapis.com";
+                            }
+                            return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent";
+                        };
+
+                        /**
                          * CalendarType enum.
                          * @name proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent.CalendarType
                          * @enum {number}
@@ -29656,6 +30946,21 @@ $root.proto = (function() {
                          */
                         HSMDateTimeUnixEpoch.prototype.toJSON = function toJSON() {
                             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                        };
+
+                        /**
+                         * Gets the default type url for HSMDateTimeUnixEpoch
+                         * @function getTypeUrl
+                         * @memberof proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch
+                         * @static
+                         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                         * @returns {string} The default type url
+                         */
+                        HSMDateTimeUnixEpoch.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                            if (typeUrlPrefix === undefined) {
+                                typeUrlPrefix = "type.googleapis.com";
+                            }
+                            return typeUrlPrefix + "/proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch";
                         };
 
                         return HSMDateTimeUnixEpoch;
@@ -30144,6 +31449,21 @@ $root.proto = (function() {
              */
             HistorySyncNotification.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for HistorySyncNotification
+             * @function getTypeUrl
+             * @memberof proto.Message.HistorySyncNotification
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            HistorySyncNotification.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.HistorySyncNotification";
             };
 
             /**
@@ -31075,6 +32395,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ImageMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ImageMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ImageMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ImageMessage";
+            };
+
             return ImageMessage;
         })();
 
@@ -31260,6 +32595,21 @@ $root.proto = (function() {
              */
             InitialSecurityNotificationSettingSync.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for InitialSecurityNotificationSettingSync
+             * @function getTypeUrl
+             * @memberof proto.Message.InitialSecurityNotificationSettingSync
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            InitialSecurityNotificationSettingSync.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.InitialSecurityNotificationSettingSync";
             };
 
             return InitialSecurityNotificationSettingSync;
@@ -31651,6 +33001,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for InteractiveMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.InteractiveMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            InteractiveMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.InteractiveMessage";
+            };
+
             InteractiveMessage.Body = (function() {
 
                 /**
@@ -31833,6 +33198,21 @@ $root.proto = (function() {
                  */
                 Body.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Body
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.Body
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Body.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.Body";
                 };
 
                 return Body;
@@ -32067,6 +33447,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for CollectionMessage
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.CollectionMessage
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                CollectionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.CollectionMessage";
+                };
+
                 return CollectionMessage;
             })();
 
@@ -32252,6 +33647,21 @@ $root.proto = (function() {
                  */
                 Footer.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Footer
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.Footer
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Footer.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.Footer";
                 };
 
                 return Footer;
@@ -32632,6 +34042,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for Header
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.Header
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Header.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.Header";
+                };
+
                 return Header;
             })();
 
@@ -32886,6 +34311,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for NativeFlowMessage
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.NativeFlowMessage
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                NativeFlowMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.NativeFlowMessage";
+                };
+
                 NativeFlowMessage.NativeFlowButton = (function() {
 
                     /**
@@ -33091,6 +34531,21 @@ $root.proto = (function() {
                      */
                     NativeFlowButton.prototype.toJSON = function toJSON() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                    };
+
+                    /**
+                     * Gets the default type url for NativeFlowButton
+                     * @function getTypeUrl
+                     * @memberof proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    NativeFlowButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton";
                     };
 
                     return NativeFlowButton;
@@ -33349,6 +34804,21 @@ $root.proto = (function() {
                  */
                 ShopMessage.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for ShopMessage
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveMessage.ShopMessage
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ShopMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveMessage.ShopMessage";
                 };
 
                 /**
@@ -33639,6 +35109,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for InteractiveResponseMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.InteractiveResponseMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            InteractiveResponseMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.InteractiveResponseMessage";
+            };
+
             InteractiveResponseMessage.Body = (function() {
 
                 /**
@@ -33821,6 +35306,21 @@ $root.proto = (function() {
                  */
                 Body.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Body
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveResponseMessage.Body
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Body.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveResponseMessage.Body";
                 };
 
                 return Body;
@@ -34053,6 +35553,21 @@ $root.proto = (function() {
                  */
                 NativeFlowResponseMessage.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for NativeFlowResponseMessage
+                 * @function getTypeUrl
+                 * @memberof proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                NativeFlowResponseMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage";
                 };
 
                 return NativeFlowResponseMessage;
@@ -34508,6 +36023,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for InvoiceMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.InvoiceMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            InvoiceMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.InvoiceMessage";
+            };
+
+            /**
              * AttachmentType enum.
              * @name proto.Message.InvoiceMessage.AttachmentType
              * @enum {number}
@@ -34788,6 +36318,21 @@ $root.proto = (function() {
              */
             KeepInChatMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for KeepInChatMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.KeepInChatMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            KeepInChatMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.KeepInChatMessage";
             };
 
             return KeepInChatMessage;
@@ -35183,6 +36728,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ListMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ListMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ListMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ListMessage";
+            };
+
+            /**
              * ListType enum.
              * @name proto.Message.ListMessage.ListType
              * @enum {number}
@@ -35380,6 +36940,21 @@ $root.proto = (function() {
                  */
                 Product.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Product
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.Product
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Product.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.Product";
                 };
 
                 return Product;
@@ -35599,6 +37174,21 @@ $root.proto = (function() {
                  */
                 ProductListHeaderImage.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for ProductListHeaderImage
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.ProductListHeaderImage
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ProductListHeaderImage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.ProductListHeaderImage";
                 };
 
                 return ProductListHeaderImage;
@@ -35860,6 +37450,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for ProductListInfo
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.ProductListInfo
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ProductListInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.ProductListInfo";
+                };
+
                 return ProductListInfo;
             })();
 
@@ -36089,6 +37694,21 @@ $root.proto = (function() {
                  */
                 ProductSection.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for ProductSection
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.ProductSection
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ProductSection.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.ProductSection";
                 };
 
                 return ProductSection;
@@ -36323,6 +37943,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for Row
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.Row
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Row.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.Row";
+                };
+
                 return Row;
             })();
 
@@ -36552,6 +38187,21 @@ $root.proto = (function() {
                  */
                 Section.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Section
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListMessage.Section
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Section.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListMessage.Section";
                 };
 
                 return Section;
@@ -36857,6 +38507,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ListResponseMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ListResponseMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ListResponseMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ListResponseMessage";
+            };
+
+            /**
              * ListType enum.
              * @name proto.Message.ListResponseMessage.ListType
              * @enum {number}
@@ -37052,6 +38717,21 @@ $root.proto = (function() {
                  */
                 SingleSelectReply.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for SingleSelectReply
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ListResponseMessage.SingleSelectReply
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                SingleSelectReply.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ListResponseMessage.SingleSelectReply";
                 };
 
                 return SingleSelectReply;
@@ -37469,6 +39149,21 @@ $root.proto = (function() {
              */
             LiveLocationMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for LiveLocationMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.LiveLocationMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            LiveLocationMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.LiveLocationMessage";
             };
 
             return LiveLocationMessage;
@@ -37913,6 +39608,21 @@ $root.proto = (function() {
              */
             LocationMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for LocationMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.LocationMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            LocationMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.LocationMessage";
             };
 
             return LocationMessage;
@@ -38390,6 +40100,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for OrderMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.OrderMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            OrderMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.OrderMessage";
+            };
+
+            /**
              * OrderStatus enum.
              * @name proto.Message.OrderMessage.OrderStatus
              * @enum {number}
@@ -38658,6 +40383,21 @@ $root.proto = (function() {
              */
             PaymentInviteMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PaymentInviteMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PaymentInviteMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PaymentInviteMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PaymentInviteMessage";
             };
 
             /**
@@ -39004,6 +40744,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PeerDataOperationRequestMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PeerDataOperationRequestMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PeerDataOperationRequestMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestMessage";
+            };
+
             PeerDataOperationRequestMessage.HistorySyncOnDemandRequest = (function() {
 
                 /**
@@ -39291,6 +41046,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for HistorySyncOnDemandRequest
+                 * @function getTypeUrl
+                 * @memberof proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                HistorySyncOnDemandRequest.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest";
+                };
+
                 return HistorySyncOnDemandRequest;
             })();
 
@@ -39478,6 +41248,21 @@ $root.proto = (function() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                 };
 
+                /**
+                 * Gets the default type url for RequestStickerReupload
+                 * @function getTypeUrl
+                 * @memberof proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                RequestStickerReupload.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload";
+                };
+
                 return RequestStickerReupload;
             })();
 
@@ -39663,6 +41448,21 @@ $root.proto = (function() {
                  */
                 RequestUrlPreview.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for RequestUrlPreview
+                 * @function getTypeUrl
+                 * @memberof proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                RequestUrlPreview.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview";
                 };
 
                 return RequestUrlPreview;
@@ -39945,6 +41745,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PeerDataOperationRequestResponseMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PeerDataOperationRequestResponseMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PeerDataOperationRequestResponseMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestResponseMessage";
+            };
+
             PeerDataOperationRequestResponseMessage.PeerDataOperationResult = (function() {
 
                 /**
@@ -40205,6 +42020,21 @@ $root.proto = (function() {
                  */
                 PeerDataOperationResult.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for PeerDataOperationResult
+                 * @function getTypeUrl
+                 * @memberof proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                PeerDataOperationResult.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult";
                 };
 
                 PeerDataOperationResult.LinkPreviewResponse = (function() {
@@ -40533,6 +42363,21 @@ $root.proto = (function() {
                         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
                     };
 
+                    /**
+                     * Gets the default type url for LinkPreviewResponse
+                     * @function getTypeUrl
+                     * @memberof proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse
+                     * @static
+                     * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                     * @returns {string} The default type url
+                     */
+                    LinkPreviewResponse.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                        if (typeUrlPrefix === undefined) {
+                            typeUrlPrefix = "type.googleapis.com";
+                        }
+                        return typeUrlPrefix + "/proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse";
+                    };
+
                     return LinkPreviewResponse;
                 })();
 
@@ -40824,6 +42669,21 @@ $root.proto = (function() {
              */
             PinMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PinMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PinMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PinMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PinMessage";
             };
 
             /**
@@ -41154,6 +43014,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PollCreationMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PollCreationMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollCreationMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PollCreationMessage";
+            };
+
             PollCreationMessage.Option = (function() {
 
                 /**
@@ -41336,6 +43211,21 @@ $root.proto = (function() {
                  */
                 Option.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for Option
+                 * @function getTypeUrl
+                 * @memberof proto.Message.PollCreationMessage.Option
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                Option.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.PollCreationMessage.Option";
                 };
 
                 return Option;
@@ -41567,6 +43457,21 @@ $root.proto = (function() {
              */
             PollEncValue.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PollEncValue
+             * @function getTypeUrl
+             * @memberof proto.Message.PollEncValue
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollEncValue.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PollEncValue";
             };
 
             return PollEncValue;
@@ -41852,6 +43757,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PollUpdateMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PollUpdateMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollUpdateMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PollUpdateMessage";
+            };
+
             return PollUpdateMessage;
         })();
 
@@ -42010,6 +43930,21 @@ $root.proto = (function() {
              */
             PollUpdateMessageMetadata.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PollUpdateMessageMetadata
+             * @function getTypeUrl
+             * @memberof proto.Message.PollUpdateMessageMetadata
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollUpdateMessageMetadata.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PollUpdateMessageMetadata";
             };
 
             return PollUpdateMessageMetadata;
@@ -42216,6 +44151,21 @@ $root.proto = (function() {
              */
             PollVoteMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PollVoteMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.PollVoteMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollVoteMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.PollVoteMessage";
             };
 
             return PollVoteMessage;
@@ -42531,6 +44481,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ProductMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ProductMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ProductMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ProductMessage";
+            };
+
             ProductMessage.CatalogSnapshot = (function() {
 
                 /**
@@ -42763,6 +44728,21 @@ $root.proto = (function() {
                  */
                 CatalogSnapshot.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for CatalogSnapshot
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ProductMessage.CatalogSnapshot
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                CatalogSnapshot.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ProductMessage.CatalogSnapshot";
                 };
 
                 return CatalogSnapshot;
@@ -43204,6 +45184,21 @@ $root.proto = (function() {
                  */
                 ProductSnapshot.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for ProductSnapshot
+                 * @function getTypeUrl
+                 * @memberof proto.Message.ProductMessage.ProductSnapshot
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ProductSnapshot.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.ProductMessage.ProductSnapshot";
                 };
 
                 return ProductSnapshot;
@@ -43830,6 +45825,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ProtocolMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ProtocolMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ProtocolMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ProtocolMessage";
+            };
+
+            /**
              * Type enum.
              * @name proto.Message.ProtocolMessage.Type
              * @enum {number}
@@ -44136,6 +46146,21 @@ $root.proto = (function() {
              */
             ReactionMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ReactionMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ReactionMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ReactionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ReactionMessage";
             };
 
             return ReactionMessage;
@@ -44501,6 +46526,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for RequestPaymentMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.RequestPaymentMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            RequestPaymentMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.RequestPaymentMessage";
+            };
+
             return RequestPaymentMessage;
         })();
 
@@ -44691,6 +46731,21 @@ $root.proto = (function() {
              */
             RequestPhoneNumberMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for RequestPhoneNumberMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.RequestPhoneNumberMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            RequestPhoneNumberMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.RequestPhoneNumberMessage";
             };
 
             return RequestPhoneNumberMessage;
@@ -44958,6 +47013,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for ScheduledCallCreationMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ScheduledCallCreationMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ScheduledCallCreationMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ScheduledCallCreationMessage";
+            };
+
+            /**
              * CallType enum.
              * @name proto.Message.ScheduledCallCreationMessage.CallType
              * @enum {number}
@@ -45199,6 +47269,21 @@ $root.proto = (function() {
              */
             ScheduledCallEditMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ScheduledCallEditMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.ScheduledCallEditMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ScheduledCallEditMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.ScheduledCallEditMessage";
             };
 
             /**
@@ -45462,6 +47547,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for SendPaymentMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.SendPaymentMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SendPaymentMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.SendPaymentMessage";
+            };
+
             return SendPaymentMessage;
         })();
 
@@ -45679,6 +47779,21 @@ $root.proto = (function() {
              */
             SenderKeyDistributionMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for SenderKeyDistributionMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.SenderKeyDistributionMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SenderKeyDistributionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.SenderKeyDistributionMessage";
             };
 
             return SenderKeyDistributionMessage;
@@ -46313,6 +48428,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for StickerMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.StickerMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            StickerMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.StickerMessage";
+            };
+
             return StickerMessage;
         })();
 
@@ -46576,6 +48706,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for StickerSyncRMRMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.StickerSyncRMRMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            StickerSyncRMRMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.StickerSyncRMRMessage";
+            };
+
             return StickerSyncRMRMessage;
         })();
 
@@ -46833,6 +48978,21 @@ $root.proto = (function() {
              */
             TemplateButtonReplyMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for TemplateButtonReplyMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.TemplateButtonReplyMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            TemplateButtonReplyMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.TemplateButtonReplyMessage";
             };
 
             return TemplateButtonReplyMessage;
@@ -47190,6 +49350,21 @@ $root.proto = (function() {
              */
             TemplateMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for TemplateMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.TemplateMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            TemplateMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.TemplateMessage";
             };
 
             TemplateMessage.FourRowTemplate = (function() {
@@ -47634,6 +49809,21 @@ $root.proto = (function() {
                  */
                 FourRowTemplate.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for FourRowTemplate
+                 * @function getTypeUrl
+                 * @memberof proto.Message.TemplateMessage.FourRowTemplate
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                FourRowTemplate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.TemplateMessage.FourRowTemplate";
                 };
 
                 return FourRowTemplate;
@@ -48087,6 +50277,21 @@ $root.proto = (function() {
                  */
                 HydratedFourRowTemplate.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for HydratedFourRowTemplate
+                 * @function getTypeUrl
+                 * @memberof proto.Message.TemplateMessage.HydratedFourRowTemplate
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                HydratedFourRowTemplate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.Message.TemplateMessage.HydratedFourRowTemplate";
                 };
 
                 return HydratedFourRowTemplate;
@@ -48901,6 +51106,21 @@ $root.proto = (function() {
             };
 
             /**
+             * Gets the default type url for VideoMessage
+             * @function getTypeUrl
+             * @memberof proto.Message.VideoMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            VideoMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.Message.VideoMessage";
+            };
+
+            /**
              * Attribution enum.
              * @name proto.Message.VideoMessage.Attribution
              * @enum {number}
@@ -49196,6 +51416,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for MessageContextInfo
+         * @function getTypeUrl
+         * @memberof proto.MessageContextInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MessageContextInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MessageContextInfo";
+        };
+
         return MessageContextInfo;
     })();
 
@@ -49450,6 +51685,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for MessageKey
+         * @function getTypeUrl
+         * @memberof proto.MessageKey
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MessageKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MessageKey";
+        };
+
         return MessageKey;
     })();
 
@@ -49694,6 +51944,21 @@ $root.proto = (function() {
          */
         Money.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for Money
+         * @function getTypeUrl
+         * @memberof proto.Money
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Money.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Money";
         };
 
         return Money;
@@ -50511,6 +52776,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for MsgOpaqueData
+         * @function getTypeUrl
+         * @memberof proto.MsgOpaqueData
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MsgOpaqueData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MsgOpaqueData";
+        };
+
         MsgOpaqueData.PollOption = (function() {
 
             /**
@@ -50693,6 +52973,21 @@ $root.proto = (function() {
              */
             PollOption.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PollOption
+             * @function getTypeUrl
+             * @memberof proto.MsgOpaqueData.PollOption
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PollOption.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.MsgOpaqueData.PollOption";
             };
 
             return PollOption;
@@ -50916,6 +53211,21 @@ $root.proto = (function() {
          */
         MsgRowOpaqueData.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for MsgRowOpaqueData
+         * @function getTypeUrl
+         * @memberof proto.MsgRowOpaqueData
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        MsgRowOpaqueData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.MsgRowOpaqueData";
         };
 
         return MsgRowOpaqueData;
@@ -51144,6 +53454,21 @@ $root.proto = (function() {
          */
         NoiseCertificate.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for NoiseCertificate
+         * @function getTypeUrl
+         * @memberof proto.NoiseCertificate
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        NoiseCertificate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.NoiseCertificate";
         };
 
         NoiseCertificate.Details = (function() {
@@ -51442,6 +53767,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for Details
+             * @function getTypeUrl
+             * @memberof proto.NoiseCertificate.Details
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            Details.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.NoiseCertificate.Details";
+            };
+
             return Details;
         })();
 
@@ -51723,6 +54063,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for NotificationMessageInfo
+         * @function getTypeUrl
+         * @memberof proto.NotificationMessageInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        NotificationMessageInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.NotificationMessageInfo";
+        };
+
         return NotificationMessageInfo;
     })();
 
@@ -51983,6 +54338,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for PastParticipant
+         * @function getTypeUrl
+         * @memberof proto.PastParticipant
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PastParticipant.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PastParticipant";
+        };
+
+        /**
          * LeaveReason enum.
          * @name proto.PastParticipant.LeaveReason
          * @enum {number}
@@ -52225,6 +54595,21 @@ $root.proto = (function() {
          */
         PastParticipants.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for PastParticipants
+         * @function getTypeUrl
+         * @memberof proto.PastParticipants
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PastParticipants.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PastParticipants";
         };
 
         return PastParticipants;
@@ -52645,6 +55030,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for PaymentBackground
+         * @function getTypeUrl
+         * @memberof proto.PaymentBackground
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PaymentBackground.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PaymentBackground";
+        };
+
         PaymentBackground.MediaData = (function() {
 
             /**
@@ -52957,6 +55357,21 @@ $root.proto = (function() {
              */
             MediaData.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for MediaData
+             * @function getTypeUrl
+             * @memberof proto.PaymentBackground.MediaData
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            MediaData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.PaymentBackground.MediaData";
             };
 
             return MediaData;
@@ -53725,6 +56140,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for PaymentInfo
+         * @function getTypeUrl
+         * @memberof proto.PaymentInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PaymentInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PaymentInfo";
+        };
+
+        /**
          * Currency enum.
          * @name proto.PaymentInfo.Currency
          * @enum {number}
@@ -54096,6 +56526,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for PhotoChange
+         * @function getTypeUrl
+         * @memberof proto.PhotoChange
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PhotoChange.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PhotoChange";
+        };
+
         return PhotoChange;
     })();
 
@@ -54350,6 +56795,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for Point
+         * @function getTypeUrl
+         * @memberof proto.Point
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Point.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Point";
+        };
+
         return Point;
     })();
 
@@ -54535,6 +56995,21 @@ $root.proto = (function() {
          */
         PollAdditionalMetadata.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for PollAdditionalMetadata
+         * @function getTypeUrl
+         * @memberof proto.PollAdditionalMetadata
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PollAdditionalMetadata.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PollAdditionalMetadata";
         };
 
         return PollAdditionalMetadata;
@@ -54763,6 +57238,21 @@ $root.proto = (function() {
          */
         PollEncValue.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for PollEncValue
+         * @function getTypeUrl
+         * @memberof proto.PollEncValue
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PollEncValue.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PollEncValue";
         };
 
         return PollEncValue;
@@ -55079,6 +57569,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for PollUpdate
+         * @function getTypeUrl
+         * @memberof proto.PollUpdate
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PollUpdate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PollUpdate";
+        };
+
         return PollUpdate;
     })();
 
@@ -55329,6 +57834,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for PreKeyRecordStructure
+         * @function getTypeUrl
+         * @memberof proto.PreKeyRecordStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        PreKeyRecordStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.PreKeyRecordStructure";
+        };
+
         return PreKeyRecordStructure;
     })();
 
@@ -55537,6 +58057,21 @@ $root.proto = (function() {
          */
         Pushname.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for Pushname
+         * @function getTypeUrl
+         * @memberof proto.Pushname
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Pushname.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Pushname";
         };
 
         return Pushname;
@@ -55834,6 +58369,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for Reaction
+         * @function getTypeUrl
+         * @memberof proto.Reaction
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        Reaction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.Reaction";
+        };
+
         return Reaction;
     })();
 
@@ -56042,6 +58592,21 @@ $root.proto = (function() {
          */
         RecentEmojiWeight.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for RecentEmojiWeight
+         * @function getTypeUrl
+         * @memberof proto.RecentEmojiWeight
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        RecentEmojiWeight.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.RecentEmojiWeight";
         };
 
         return RecentEmojiWeight;
@@ -56280,6 +58845,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for RecordStructure
+         * @function getTypeUrl
+         * @memberof proto.RecordStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        RecordStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.RecordStructure";
+        };
+
         return RecordStructure;
     })();
 
@@ -56486,6 +59066,21 @@ $root.proto = (function() {
          */
         SenderKeyRecordStructure.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SenderKeyRecordStructure
+         * @function getTypeUrl
+         * @memberof proto.SenderKeyRecordStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyRecordStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SenderKeyRecordStructure";
         };
 
         return SenderKeyRecordStructure;
@@ -56774,6 +59369,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SenderKeyStateStructure
+         * @function getTypeUrl
+         * @memberof proto.SenderKeyStateStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SenderKeyStateStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SenderKeyStateStructure";
+        };
+
         SenderKeyStateStructure.SenderChainKey = (function() {
 
             /**
@@ -56988,6 +59598,21 @@ $root.proto = (function() {
              */
             SenderChainKey.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for SenderChainKey
+             * @function getTypeUrl
+             * @memberof proto.SenderKeyStateStructure.SenderChainKey
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SenderChainKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SenderKeyStateStructure.SenderChainKey";
             };
 
             return SenderChainKey;
@@ -57207,6 +59832,21 @@ $root.proto = (function() {
              */
             SenderMessageKey.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for SenderMessageKey
+             * @function getTypeUrl
+             * @memberof proto.SenderKeyStateStructure.SenderMessageKey
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SenderMessageKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SenderKeyStateStructure.SenderMessageKey";
             };
 
             return SenderMessageKey;
@@ -57437,6 +60077,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for SenderSigningKey
+             * @function getTypeUrl
+             * @memberof proto.SenderKeyStateStructure.SenderSigningKey
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SenderSigningKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SenderKeyStateStructure.SenderSigningKey";
+            };
+
             return SenderSigningKey;
         })();
 
@@ -57625,6 +60280,21 @@ $root.proto = (function() {
          */
         ServerErrorReceipt.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for ServerErrorReceipt
+         * @function getTypeUrl
+         * @memberof proto.ServerErrorReceipt
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        ServerErrorReceipt.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.ServerErrorReceipt";
         };
 
         return ServerErrorReceipt;
@@ -58152,6 +60822,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SessionStructure
+         * @function getTypeUrl
+         * @memberof proto.SessionStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SessionStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SessionStructure";
+        };
+
         SessionStructure.Chain = (function() {
 
             /**
@@ -58448,6 +61133,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for Chain
+             * @function getTypeUrl
+             * @memberof proto.SessionStructure.Chain
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            Chain.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SessionStructure.Chain";
+            };
+
             Chain.ChainKey = (function() {
 
                 /**
@@ -58662,6 +61362,21 @@ $root.proto = (function() {
                  */
                 ChainKey.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for ChainKey
+                 * @function getTypeUrl
+                 * @memberof proto.SessionStructure.Chain.ChainKey
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                ChainKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.SessionStructure.Chain.ChainKey";
                 };
 
                 return ChainKey;
@@ -58943,6 +61658,21 @@ $root.proto = (function() {
                  */
                 MessageKey.prototype.toJSON = function toJSON() {
                     return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+                };
+
+                /**
+                 * Gets the default type url for MessageKey
+                 * @function getTypeUrl
+                 * @memberof proto.SessionStructure.Chain.MessageKey
+                 * @static
+                 * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+                 * @returns {string} The default type url
+                 */
+                MessageKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                    if (typeUrlPrefix === undefined) {
+                        typeUrlPrefix = "type.googleapis.com";
+                    }
+                    return typeUrlPrefix + "/proto.SessionStructure.Chain.MessageKey";
                 };
 
                 return MessageKey;
@@ -59322,6 +62052,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PendingKeyExchange
+             * @function getTypeUrl
+             * @memberof proto.SessionStructure.PendingKeyExchange
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PendingKeyExchange.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SessionStructure.PendingKeyExchange";
+            };
+
             return PendingKeyExchange;
         })();
 
@@ -59561,6 +62306,21 @@ $root.proto = (function() {
              */
             PendingPreKey.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PendingPreKey
+             * @function getTypeUrl
+             * @memberof proto.SessionStructure.PendingPreKey
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PendingPreKey.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SessionStructure.PendingPreKey";
             };
 
             return PendingPreKey;
@@ -59883,6 +62643,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SignedPreKeyRecordStructure
+         * @function getTypeUrl
+         * @memberof proto.SignedPreKeyRecordStructure
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SignedPreKeyRecordStructure.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SignedPreKeyRecordStructure";
+        };
+
         return SignedPreKeyRecordStructure;
     })();
 
@@ -60119,6 +62894,21 @@ $root.proto = (function() {
          */
         StatusPSA.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for StatusPSA
+         * @function getTypeUrl
+         * @memberof proto.StatusPSA
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        StatusPSA.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.StatusPSA";
         };
 
         return StatusPSA;
@@ -60584,6 +63374,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for StickerMetadata
+         * @function getTypeUrl
+         * @memberof proto.StickerMetadata
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        StickerMetadata.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.StickerMetadata";
+        };
+
         return StickerMetadata;
     })();
 
@@ -60859,6 +63664,21 @@ $root.proto = (function() {
          */
         SyncActionData.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncActionData
+         * @function getTypeUrl
+         * @memberof proto.SyncActionData
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncActionData.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncActionData";
         };
 
         return SyncActionData;
@@ -61900,6 +64720,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SyncActionValue
+         * @function getTypeUrl
+         * @memberof proto.SyncActionValue
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncActionValue.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncActionValue";
+        };
+
         SyncActionValue.AgentAction = (function() {
 
             /**
@@ -62129,6 +64964,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for AgentAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.AgentAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AgentAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.AgentAction";
+            };
+
             return AgentAction;
         })();
 
@@ -62314,6 +65164,21 @@ $root.proto = (function() {
              */
             AndroidUnsupportedActions.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for AndroidUnsupportedActions
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.AndroidUnsupportedActions
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            AndroidUnsupportedActions.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.AndroidUnsupportedActions";
             };
 
             return AndroidUnsupportedActions;
@@ -62531,6 +65396,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ArchiveChatAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.ArchiveChatAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ArchiveChatAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.ArchiveChatAction";
+            };
+
             return ArchiveChatAction;
         })();
 
@@ -62718,6 +65598,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ChatAssignmentAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.ChatAssignmentAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ChatAssignmentAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.ChatAssignmentAction";
+            };
+
             return ChatAssignmentAction;
         })();
 
@@ -62903,6 +65798,21 @@ $root.proto = (function() {
              */
             ChatAssignmentOpenedStatusAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ChatAssignmentOpenedStatusAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.ChatAssignmentOpenedStatusAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ChatAssignmentOpenedStatusAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.ChatAssignmentOpenedStatusAction";
             };
 
             return ChatAssignmentOpenedStatusAction;
@@ -63095,6 +66005,21 @@ $root.proto = (function() {
              */
             ClearChatAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for ClearChatAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.ClearChatAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ClearChatAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.ClearChatAction";
             };
 
             return ClearChatAction;
@@ -63329,6 +66254,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for ContactAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.ContactAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            ContactAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.ContactAction";
+            };
+
             return ContactAction;
         })();
 
@@ -63519,6 +66459,21 @@ $root.proto = (function() {
              */
             DeleteChatAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for DeleteChatAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.DeleteChatAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DeleteChatAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.DeleteChatAction";
             };
 
             return DeleteChatAction;
@@ -63745,6 +66700,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for DeleteMessageForMeAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.DeleteMessageForMeAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            DeleteMessageForMeAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.DeleteMessageForMeAction";
+            };
+
             return DeleteMessageForMeAction;
         })();
 
@@ -63932,6 +66902,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for KeyExpiration
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.KeyExpiration
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            KeyExpiration.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.KeyExpiration";
+            };
+
             return KeyExpiration;
         })();
 
@@ -64117,6 +67102,21 @@ $root.proto = (function() {
              */
             LabelAssociationAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for LabelAssociationAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.LabelAssociationAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            LabelAssociationAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.LabelAssociationAction";
             };
 
             return LabelAssociationAction;
@@ -64373,6 +67373,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for LabelEditAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.LabelEditAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            LabelEditAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.LabelEditAction";
+            };
+
             return LabelEditAction;
         })();
 
@@ -64558,6 +67573,21 @@ $root.proto = (function() {
              */
             LocaleSetting.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for LocaleSetting
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.LocaleSetting
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            LocaleSetting.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.LocaleSetting";
             };
 
             return LocaleSetting;
@@ -64773,6 +67803,21 @@ $root.proto = (function() {
              */
             MarkChatAsReadAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for MarkChatAsReadAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.MarkChatAsReadAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            MarkChatAsReadAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.MarkChatAsReadAction";
             };
 
             return MarkChatAsReadAction;
@@ -65021,6 +68066,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for MuteAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.MuteAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            MuteAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.MuteAction";
+            };
+
             return MuteAction;
         })();
 
@@ -65206,6 +68266,21 @@ $root.proto = (function() {
              */
             NuxAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for NuxAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.NuxAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            NuxAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.NuxAction";
             };
 
             return NuxAction;
@@ -65395,6 +68470,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PinAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.PinAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PinAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.PinAction";
+            };
+
             return PinAction;
         })();
 
@@ -65580,6 +68670,21 @@ $root.proto = (function() {
              */
             PnForLidChatAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PnForLidChatAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.PnForLidChatAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PnForLidChatAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.PnForLidChatAction";
             };
 
             return PnForLidChatAction;
@@ -65785,6 +68890,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PrimaryFeature
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.PrimaryFeature
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PrimaryFeature.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.PrimaryFeature";
+            };
+
             return PrimaryFeature;
         })();
 
@@ -65972,6 +69092,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for PrimaryVersionAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.PrimaryVersionAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PrimaryVersionAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.PrimaryVersionAction";
+            };
+
             return PrimaryVersionAction;
         })();
 
@@ -66157,6 +69292,21 @@ $root.proto = (function() {
              */
             PushNameSetting.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for PushNameSetting
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.PushNameSetting
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            PushNameSetting.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.PushNameSetting";
             };
 
             return PushNameSetting;
@@ -66452,6 +69602,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for QuickReplyAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.QuickReplyAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            QuickReplyAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.QuickReplyAction";
+            };
+
             return QuickReplyAction;
         })();
 
@@ -66660,6 +69825,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for RecentEmojiWeightsAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.RecentEmojiWeightsAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            RecentEmojiWeightsAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.RecentEmojiWeightsAction";
+            };
+
             return RecentEmojiWeightsAction;
         })();
 
@@ -66861,6 +70041,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for RemoveRecentStickerAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.RemoveRecentStickerAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            RemoveRecentStickerAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.RemoveRecentStickerAction";
+            };
+
             return RemoveRecentStickerAction;
         })();
 
@@ -67048,6 +70243,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for SecurityNotificationSetting
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.SecurityNotificationSetting
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SecurityNotificationSetting.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.SecurityNotificationSetting";
+            };
+
             return SecurityNotificationSetting;
         })();
 
@@ -67233,6 +70443,21 @@ $root.proto = (function() {
              */
             StarAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for StarAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.StarAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            StarAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.StarAction";
             };
 
             return StarAction;
@@ -67653,6 +70878,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for StickerAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.StickerAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            StickerAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.StickerAction";
+            };
+
             return StickerAction;
         })();
 
@@ -67899,6 +71139,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for SubscriptionAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.SubscriptionAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SubscriptionAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.SubscriptionAction";
+            };
+
             return SubscriptionAction;
         })();
 
@@ -68126,6 +71381,21 @@ $root.proto = (function() {
              */
             SyncActionMessage.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for SyncActionMessage
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.SyncActionMessage
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SyncActionMessage.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.SyncActionMessage";
             };
 
             return SyncActionMessage;
@@ -68410,6 +71680,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for SyncActionMessageRange
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.SyncActionMessageRange
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            SyncActionMessageRange.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.SyncActionMessageRange";
+            };
+
             return SyncActionMessageRange;
         })();
 
@@ -68595,6 +71880,21 @@ $root.proto = (function() {
              */
             TimeFormatAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for TimeFormatAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.TimeFormatAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            TimeFormatAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.TimeFormatAction";
             };
 
             return TimeFormatAction;
@@ -68784,6 +72084,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for UnarchiveChatsSetting
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.UnarchiveChatsSetting
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            UnarchiveChatsSetting.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.UnarchiveChatsSetting";
+            };
+
             return UnarchiveChatsSetting;
         })();
 
@@ -68969,6 +72284,21 @@ $root.proto = (function() {
              */
             UserStatusMuteAction.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for UserStatusMuteAction
+             * @function getTypeUrl
+             * @memberof proto.SyncActionValue.UserStatusMuteAction
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            UserStatusMuteAction.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.SyncActionValue.UserStatusMuteAction";
             };
 
             return UserStatusMuteAction;
@@ -69168,6 +72498,21 @@ $root.proto = (function() {
          */
         SyncdIndex.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncdIndex
+         * @function getTypeUrl
+         * @memberof proto.SyncdIndex
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdIndex.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdIndex";
         };
 
         return SyncdIndex;
@@ -69399,6 +72744,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for SyncdMutation
+         * @function getTypeUrl
+         * @memberof proto.SyncdMutation
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdMutation.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdMutation";
+        };
+
+        /**
          * SyncdOperation enum.
          * @name proto.SyncdMutation.SyncdOperation
          * @enum {number}
@@ -69618,6 +72978,21 @@ $root.proto = (function() {
          */
         SyncdMutations.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncdMutations
+         * @function getTypeUrl
+         * @memberof proto.SyncdMutations
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdMutations.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdMutations";
         };
 
         return SyncdMutations;
@@ -70022,6 +73397,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SyncdPatch
+         * @function getTypeUrl
+         * @memberof proto.SyncdPatch
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdPatch.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdPatch";
+        };
+
         return SyncdPatch;
     })();
 
@@ -70267,6 +73657,21 @@ $root.proto = (function() {
          */
         SyncdRecord.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncdRecord
+         * @function getTypeUrl
+         * @memberof proto.SyncdRecord
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdRecord.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdRecord";
         };
 
         return SyncdRecord;
@@ -70564,6 +73969,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for SyncdSnapshot
+         * @function getTypeUrl
+         * @memberof proto.SyncdSnapshot
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdSnapshot.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdSnapshot";
+        };
+
         return SyncdSnapshot;
     })();
 
@@ -70758,6 +74178,21 @@ $root.proto = (function() {
          */
         SyncdValue.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncdValue
+         * @function getTypeUrl
+         * @memberof proto.SyncdValue
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdValue.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdValue";
         };
 
         return SyncdValue;
@@ -70959,6 +74394,21 @@ $root.proto = (function() {
          */
         SyncdVersion.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for SyncdVersion
+         * @function getTypeUrl
+         * @memberof proto.SyncdVersion
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        SyncdVersion.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.SyncdVersion";
         };
 
         return SyncdVersion;
@@ -71263,6 +74713,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for TemplateButton
+         * @function getTypeUrl
+         * @memberof proto.TemplateButton
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        TemplateButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.TemplateButton";
+        };
+
         TemplateButton.CallButton = (function() {
 
             /**
@@ -71480,6 +74945,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for CallButton
+             * @function getTypeUrl
+             * @memberof proto.TemplateButton.CallButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            CallButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.TemplateButton.CallButton";
+            };
+
             return CallButton;
         })();
 
@@ -71693,6 +75173,21 @@ $root.proto = (function() {
              */
             QuickReplyButton.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for QuickReplyButton
+             * @function getTypeUrl
+             * @memberof proto.TemplateButton.QuickReplyButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            QuickReplyButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.TemplateButton.QuickReplyButton";
             };
 
             return QuickReplyButton;
@@ -71913,6 +75408,21 @@ $root.proto = (function() {
              */
             URLButton.prototype.toJSON = function toJSON() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+            };
+
+            /**
+             * Gets the default type url for URLButton
+             * @function getTypeUrl
+             * @memberof proto.TemplateButton.URLButton
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            URLButton.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.TemplateButton.URLButton";
             };
 
             return URLButton;
@@ -72292,6 +75802,21 @@ $root.proto = (function() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
         };
 
+        /**
+         * Gets the default type url for UserReceipt
+         * @function getTypeUrl
+         * @memberof proto.UserReceipt
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        UserReceipt.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.UserReceipt";
+        };
+
         return UserReceipt;
     })();
 
@@ -72549,6 +76074,21 @@ $root.proto = (function() {
          */
         VerifiedNameCertificate.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for VerifiedNameCertificate
+         * @function getTypeUrl
+         * @memberof proto.VerifiedNameCertificate
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        VerifiedNameCertificate.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.VerifiedNameCertificate";
         };
 
         VerifiedNameCertificate.Details = (function() {
@@ -72874,6 +76414,21 @@ $root.proto = (function() {
                 return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
             };
 
+            /**
+             * Gets the default type url for Details
+             * @function getTypeUrl
+             * @memberof proto.VerifiedNameCertificate.Details
+             * @static
+             * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+             * @returns {string} The default type url
+             */
+            Details.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+                if (typeUrlPrefix === undefined) {
+                    typeUrlPrefix = "type.googleapis.com";
+                }
+                return typeUrlPrefix + "/proto.VerifiedNameCertificate.Details";
+            };
+
             return Details;
         })();
 
@@ -73085,6 +76640,21 @@ $root.proto = (function() {
          */
         WallpaperSettings.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for WallpaperSettings
+         * @function getTypeUrl
+         * @memberof proto.WallpaperSettings
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        WallpaperSettings.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.WallpaperSettings";
         };
 
         return WallpaperSettings;
@@ -75276,6 +78846,21 @@ $root.proto = (function() {
          */
         WebFeatures.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for WebFeatures
+         * @function getTypeUrl
+         * @memberof proto.WebFeatures
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        WebFeatures.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.WebFeatures";
         };
 
         /**
@@ -77514,6 +81099,21 @@ $root.proto = (function() {
         };
 
         /**
+         * Gets the default type url for WebMessageInfo
+         * @function getTypeUrl
+         * @memberof proto.WebMessageInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        WebMessageInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.WebMessageInfo";
+        };
+
+        /**
          * BizPrivacyStatus enum.
          * @name proto.WebMessageInfo.BizPrivacyStatus
          * @enum {number}
@@ -78175,6 +81775,21 @@ $root.proto = (function() {
          */
         WebNotificationsInfo.prototype.toJSON = function toJSON() {
             return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+        };
+
+        /**
+         * Gets the default type url for WebNotificationsInfo
+         * @function getTypeUrl
+         * @memberof proto.WebNotificationsInfo
+         * @static
+         * @param {string} [typeUrlPrefix] your custom typeUrlPrefix(default "type.googleapis.com")
+         * @returns {string} The default type url
+         */
+        WebNotificationsInfo.getTypeUrl = function getTypeUrl(typeUrlPrefix) {
+            if (typeUrlPrefix === undefined) {
+                typeUrlPrefix = "type.googleapis.com";
+            }
+            return typeUrlPrefix + "/proto.WebNotificationsInfo";
         };
 
         return WebNotificationsInfo;

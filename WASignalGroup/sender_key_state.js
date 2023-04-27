@@ -33,13 +33,13 @@ class SenderKeyState {
             const signingKeyStructure = protobufs.SenderSigningKey.create();
             signingKeyStructure.public =
                 typeof signatureKeyPublic === 'string' ?
-                Buffer.from(signatureKeyPublic, 'base64') :
-                signatureKeyPublic;
+                    Buffer.from(signatureKeyPublic, 'base64') :
+                    signatureKeyPublic;
             if (signatureKeyPrivate) {
                 signingKeyStructure.private =
                     typeof signatureKeyPrivate === 'string' ?
-                    Buffer.from(signatureKeyPrivate, 'base64') :
-                    signatureKeyPrivate;
+                        Buffer.from(signatureKeyPrivate, 'base64') :
+                        signatureKeyPrivate;
             }
             this.senderKeyStateStructure.senderKeyId = id;
             this.senderChainKey = senderChainKeyStructure;

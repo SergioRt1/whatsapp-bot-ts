@@ -1,30 +1,26 @@
-import express, { Express, Request, Response } from 'express'
-import { startSock } from './api/whatsApp'
-import { sendMessage } from './services/whatsApp'
+import * as dotenv from 'dotenv'
+import {startSock} from './api/whatsApp'
+import {sendMessage} from './services/whatsApp'
 
-require('dotenv').config()
+dotenv.config()
 
-const PORT = process.env.PORT || 3000
+const sock = startSock()
 
-const init = async() => {
-	const app: Express = express()
-
-	const sock = await startSock()
-
-	app.get('/api/sendText', async(req: Request, res: Response) => {
-		const groupName = req.query.group || process.env.GROUP_NAME || 'bas'
-
-		const response = await sendMessage(groupName, sock)
-		if(response && response.status !== 0) {
-			res.send('Message sent')
-		} else {
-			res.send('Message failed to send')
-		}
-	})
-
-	app.listen(PORT, () => {
-		console.log(`Server running on port: ${PORT}`)
-	})
+const getWhatsApp = async () => {
+	return await sock
 }
 
-init()
+module.exports.run = async(event) => {
+	const whatsApp = await getWhatsApp()
+	console.log('Received event:', JSON.stringify(event, null, 2))
+
+	const groupName = process.env.GROUP_NAME || 'bas'
+
+	const response = await sendMessage(groupName, whatsApp)
+	if(response && response.status !== 0) {
+		console.log('LogScheduledEvent')
+	} else {
+		console.log('Message failed to send')
+	}
+}
+

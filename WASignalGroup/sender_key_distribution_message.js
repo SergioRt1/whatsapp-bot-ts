@@ -7,7 +7,7 @@ class SenderKeyDistributionMessage extends CiphertextMessage {
     iteration = null,
     chainKey = null,
     signatureKey = null,
-    serialized = null
+    serialized
   ) {
     super();
     if (serialized) {

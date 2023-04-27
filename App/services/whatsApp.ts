@@ -1,5 +1,5 @@
-import { GroupMetadata } from '../../lib'
 import { getFinancialInfo } from './finances'
+import { GroupMetadata } from '../../src'
 
 export const sendMessage = async(contactName: string, sock) => {
 	const groups = await sock.groupFetchAllParticipating()

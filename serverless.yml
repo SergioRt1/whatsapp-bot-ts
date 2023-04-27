@@ -1,0 +1,36 @@
+service: whatsapp-bot-ts
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-2
+  memorySize: 128
+
+
+plugins:
+  - serverless-plugin-typescript
+
+
+functions:
+  cronHandler:
+    handler: App/server.run
+    events:
+      # Invoke Lambda function every day at 15 AM UTC
+      - schedule: cron(0 15 * * ? *)
+
+resources: # CloudFormation template
+  Resources:
+    WhatsAppBotTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: whats-app-bot-table
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1

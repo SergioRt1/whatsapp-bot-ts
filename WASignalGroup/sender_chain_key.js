@@ -47,4 +47,5 @@ class SenderChainKey {
   }
 }
 
+export { SenderChainKey }
 module.exports = SenderChainKey;
