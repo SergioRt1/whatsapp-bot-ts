@@ -1,10 +1,7 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb'
 import { PutCommand, GetCommand, DeleteCommand } from '@aws-sdk/lib-dynamodb'
 
-const TABLE_NAME = 'whats-app-bot-table'
-
-
-
+const TABLE_NAME = process.env.DYNAMODB_TABLE!
 const dynamoDB = new DynamoDBClient({ region: 'us-east-2' })
 
 export const putDocument = async(id: string, data: string) => {
@@ -18,7 +15,11 @@ export const putDocument = async(id: string, data: string) => {
 
 	try {
 		const data = await dynamoDB.send(new PutCommand(params))
-		console.log('Put item:', data)
+		if(data.$metadata.httpStatusCode === 200) {
+			console.log(`Put item with ID ${id}`)
+		} else {
+			console.error('Unable to put item:', data)
+		}
 	} catch(err) {
 		console.error('Unable to put item:', err)
 	}
@@ -33,9 +34,11 @@ export const getDocument = async(id: string) => {
 	}
 
 	try {
-		const data = await dynamoDB.send( new GetCommand(params))
-		if(data.Item?.data.S) {
-			return JSON.parse(data.Item.data.S)
+		const data = await dynamoDB.send(new GetCommand(params))
+		if(data.$metadata.httpStatusCode === 200 && data.Item?.data) {
+			return data.Item.data
+		} else {
+			console.error('Item not found')
 		}
 	} catch(err) {
 		console.error('Unable to get item:', err)
@@ -53,8 +56,12 @@ export const deleteDocument = async(id: string) => {
 	}
 
 	try {
-		await dynamoDB.send(new DeleteCommand(params))
-		console.log(`Deleted item with ID ${id}`)
+		const response = await dynamoDB.send(new DeleteCommand(params))
+		if(response.$metadata.httpStatusCode === 200) {
+			console.log(`Deleted item with ID ${id}`)
+		} else {
+			console.error('Unable to delete item:', response)
+		}
 	} catch(err) {
 		console.error('Unable to delete item:', err)
 	}

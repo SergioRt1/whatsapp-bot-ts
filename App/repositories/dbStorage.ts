@@ -1,19 +1,20 @@
-import { AuthenticationCreds } from '../../src'
 import { deleteDocument, getDocument, putDocument } from '../resources/dynamoDB'
 
-const CREDS_ID = 'creds'
 
-
-export const saveCreds = async(creds: AuthenticationCreds) => {
-	const data = JSON.stringify(creds)
-	await putDocument(CREDS_ID, data)
+export const saveAsJSON = async(id: string, data: any) => {
+	const json = JSON.stringify(data)
+	await putDocument(id, json)
 }
 
-export const removeCreds = async() => {
-	await deleteDocument(CREDS_ID)
+export const saveString = async(id: string, data: string) => {
+	await putDocument(id, data)
 }
 
 
-export const getCreds = async(): Promise<AuthenticationCreds> => {
-	return await getDocument(CREDS_ID)
+export const removeById = async(id: string) => {
+	await deleteDocument(id)
+}
+
+export const getString = async(id: string): Promise<string> => {
+	return await getDocument(id)
 }

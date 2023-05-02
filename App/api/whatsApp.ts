@@ -2,11 +2,12 @@ import { Boom } from '@hapi/boom'
 import NodeCache from 'node-cache'
 import makeWASocket, { fetchLatestBaileysVersion, makeCacheableSignalKeyStore, makeInMemoryStore, useMultiFileAuthState } from '../../src'
 import MAIN_LOGGER from '../../src/Utils/logger'
+import { useExternalMultiFileAuthState } from "../../src/Utils/use-external-multi-file-auth-state";
 
 const logger = MAIN_LOGGER.child({ })
 logger.level = 'trace'
 
-const useStore = !process.argv.includes('--no-store')
+const useStore = process.env.USE_STORE === 'true'
 const useExternalAuth = process.env.EXTERNAL_AUTH_ENABLED === 'true'
 
 // external map to store retry counts of messages when decryption/encryption fails
@@ -22,9 +23,17 @@ setInterval(() => {
 	store?.writeToFile('./baileys_store_multi.json')
 }, 10_000)
 
+const getAuthState = async() => {
+	if(useExternalAuth) {
+		return await useExternalMultiFileAuthState()
+	} else {
+		return await useMultiFileAuthState('baileys_auth_info')
+	}
+}
+
 // start a connection
 const startSock = async() => {
-	const { state, saveCreds, removeData } = await useMultiFileAuthState('baileys_auth_info', useExternalAuth)
+	const { state, saveData, removeData } = await getAuthState()
 	// fetch latest version of WA Web
 	const { version, isLatest } = await fetchLatestBaileysVersion()
 	console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
@@ -40,6 +49,8 @@ const startSock = async() => {
 		},
 		msgRetryCounterCache,
 		generateHighQualityLinkPreview: true,
+		shouldSyncHistoryMessage: () => { return false },
+		syncFullHistory: false,
 	})
 
 	store?.bind(sock.ev)
@@ -71,7 +82,7 @@ const startSock = async() => {
 
 			// credentials updated -- save them
 			if(events['creds.update']) {
-				await saveCreds()
+				await saveData()
 			}
 
 			// history received

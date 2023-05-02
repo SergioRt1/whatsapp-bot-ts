@@ -1,15 +1,14 @@
 # Whatsapp bot
 
-This project is a bot that writes WhatsApp messages. It uses the Typescript/Javascript WhatsApp Web API
-through **[Baileys](https://github.com/WhiskeySockets/Baileys)** to send messages to a WhatsApp group. It accomplishes this
-by
-creating an HTTP server with Express, where an endpoint `/api/sendText` is exposed and can receive an optional group
-name
-as a query parameter.
+This project is a bot designed to send WhatsApp messages using the WhatsApp Typescript/Javascript Web API
+through **[Baileys](https://github.com/WhiskeySockets/Baileys)**. The bot achieves this functionality by running as a
+scheduled task on AWS Lambda. The WhatsApp credentials are securely stored in DynamoDB, ensuring that it is not
+necessary to log in every time the lambda is executed. To manage the infrastructure in AWS, the
+[Serverless](https://www.serverless.com) Framework is utilized.
 
 The bot searches a finance API for the USD to COP conversion value and sends it in a message via WhatsApp. This
 iteration of the [previous Rust project](https://github.com/SergioRt1/whatsapp-bot-rs) reduces memory usage and enables
-it to run in the cloud, specifically in a free tier container, without Selenium dependency.
+it to run in the cloud, specifically in a free tier 128MB Lambda, without Selenium dependency.
 
 ## Baileys - Typescript/Javascript WhatsApp Web API
 
@@ -33,18 +32,32 @@ it, [Messcat](https://github.com/ashokatechmin/Messcat).
 **Read the docs [here](https://adiwajshing.github.io/Baileys)**
 **Join the Discord [here](https://discord.gg/WeJM5FP9GG)**
 
-## Run :hammer_and_wrench:
+## Deployment :rocket:
 
-To run the script, download or clone the repo and then type the following in a terminal:
+To deploy the project:
 
-1. ``` cd path/to/theProject ```
-3. ``` yarn run start ```
+1. Set up your AWS credentials `aws configure` (this must have access to Lambda and DynamoDB)
+2. Install the dependencies running `yarn`
+3. Create a `.env` file in the root of the project like:
+    ```env
+    EXTERNAL_AUTH_ENABLED=true
+    GROUP_NAME=your-group-name
+    USE_STORE=false
+    DYNAMODB_TABLE=whats-app-bot-table
+    CREDS_ID=creds-id
+    ```
+4. Deploy the project `serverless deploy --verbose`
 
-## Make a request
+### PD
 
-```bash
-curl --location 'http://localhost:3000/api/sendText?group=Mi%20group%20name'
+If while deploying you have an error like:
+
 ```
+Cannot read file node_modules\dayjs\esm\locale\sk.js due to: EMFILE: too many open files, open '...\Baileys\.build\node_modules\dayjs\esm\locale\sk.js'
+```
+
+then add `require('../../graceful-fs/graceful-fs').gracefulify(require('fs'));` below `'use strict';` in the
+file `node_modules/serverless/bin/serverless.js` to solve it.
 
 ## Note
 

@@ -1,22 +1,24 @@
 import * as dotenv from 'dotenv'
+dotenv.config()
+
 import {startSock} from './api/whatsApp'
 import {sendMessage} from './services/whatsApp'
 
-dotenv.config()
-
-const sock = startSock()
+const groupName = process.env.GROUP_NAME || 'bas'
+const sockPromise = startSock()
 
 const getWhatsApp = async () => {
-	return await sock
+	const sock = await sockPromise
+	await sock.waitForConnectionUpdate((ev) => {
+		return ev.isOnline || ev.connection === 'open'
+	})
+	return sock
 }
 
 module.exports.run = async(event) => {
-	const whatsApp = await getWhatsApp()
-	console.log('Received event:', JSON.stringify(event, null, 2))
+	const whatsAppPromise = getWhatsApp()
+	const response = await sendMessage(groupName, whatsAppPromise)
 
-	const groupName = process.env.GROUP_NAME || 'bas'
-
-	const response = await sendMessage(groupName, whatsApp)
 	if(response && response.status !== 0) {
 		console.log('LogScheduledEvent')
 	} else {

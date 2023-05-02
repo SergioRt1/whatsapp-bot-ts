@@ -6,20 +6,41 @@ provider:
   runtime: nodejs18.x
   region: us-east-2
   memorySize: 128
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:DeleteItem
+          Resource:
+            - arn:aws:dynamodb:us-east-2:585330697739:table/whats-app-bot-table
 
 
 plugins:
   - serverless-plugin-typescript
+  - serverless-dotenv-plugin
 
+package:
+  patterns:
+    - './App/**/*.ts'
+    - './src/**/*.ts'
+    - './WAProto/*.js'
+    - './WASignalGroup/*.js'
+    - '!./.build/**/*'
+    - '!./.idea/**/*'
+    - '!./.github/**/*'
+    - '!./baileys_auth_info/**/*'
 
 functions:
   cronHandler:
     handler: App/server.run
     events:
-      # Invoke Lambda function every day at 15 AM UTC
+      # Invoke Lambda function every day at 10 AM UTC-5
       - schedule: cron(0 15 * * ? *)
 
-resources: # CloudFormation template
+resources:
   Resources:
     WhatsAppBotTable:
       Type: AWS::DynamoDB::Table

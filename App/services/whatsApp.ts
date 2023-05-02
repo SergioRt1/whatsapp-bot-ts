@@ -1,13 +1,18 @@
 import { getFinancialInfo } from './finances'
 import { GroupMetadata } from '../../src'
 
-export const sendMessage = async(contactName: string, sock) => {
-	const groups = await sock.groupFetchAllParticipating()
+export const sendMessage = async(contactName: string, whatsAppPromise) => {
+	const messagePromise = getMessage()
+	const whatsApp = await whatsAppPromise
+
+	const groups = await whatsApp.groupFetchAllParticipating()
 	const contactId = findContactID(contactName, groups)
-	const message = await getMessage()
+	const message = await messagePromise
+
+	console.log('Sending message:', message, 'to:', contactName, 'from:', contactName)
 
 	if(contactId !== undefined && message !== undefined) {
-		return await sock.sendMessage(contactId, message)
+		return await whatsApp.sendMessage(contactId, message)
 	}
 }
 
