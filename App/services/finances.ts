@@ -1,4 +1,7 @@
-import { fetchUSDtoCOPConv } from '../repositories/finances'
+import { fetchUSDtoCOPConv, getLatest } from '../repositories/finances'
+
+const currencies = ['COP', 'MXN']
+const base = 'USD'
 
 export const getFinancialInfo = async() => {
 	const financeInfo = await calculateFinanceInfo()
@@ -7,16 +10,10 @@ export const getFinancialInfo = async() => {
 	}
 }
 
-const buildMessage = ({ current }) => {
-	return `TRM USD->COP *${current.toFixed(2)}*`
+const buildMessage = ({ base, rates }) => {
+	return Object.keys(rates).map(symbol => `TRM ${base}->${symbol} *${rates[symbol]}*`).join('\n')
 }
 
 const calculateFinanceInfo = async() => {
-	const data = await fetchUSDtoCOPConv()
-	if(data) {
-		const avg = data.reduce((acc, curr) => acc + parseFloat(curr[1]), 0) / data.length
-		const current = parseFloat(data[data.length - 1][1])
-
-		return { avg, current }
-	}
+	return await getLatest(base, currencies)
 }

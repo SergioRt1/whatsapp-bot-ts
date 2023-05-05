@@ -10,4 +10,4 @@ const httpsAgent = new https.Agent({
 	secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT,
 })
 
-export const instance = axios.create({ httpsAgent })
+export const instance = axios.create({ httpsAgent, headers: { 'apikey': 'v5kKCWJpl7UpT9NJmczFekgJA5H88LQO' } })
