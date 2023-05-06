@@ -11,7 +11,7 @@ export const getFinancialInfo = async() => {
 }
 
 const buildMessage = ({ base, rates }) => {
-	return Object.keys(rates).map(symbol => `TRM ${base}->${symbol} *${rates[symbol].end_rate}* ${getDelta(rates[symbol])}`).join('\n')
+	return Object.keys(rates).map(symbol => `TRM ${base}->${symbol} *${rates[symbol].end_rate.toFixed(2)}* ${getDelta(rates[symbol])}`).join('\n')
 }
 
 const getDelta = (rate): string => {
