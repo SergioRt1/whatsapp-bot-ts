@@ -1,13 +1,4 @@
 import axios from 'axios'
-import crypto from 'crypto'
-import * as https from 'https'
 
-const httpsAgent = new https.Agent({
-	// for self signed you could also add
-	// rejectUnauthorized: false,
 
-	// allow legacy server
-	secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT,
-})
-
-export const instance = axios.create({ httpsAgent, headers: { 'apikey': 'v5kKCWJpl7UpT9NJmczFekgJA5H88LQO' } })
+export const instance = axios.create({ headers: { 'apikey': process.env.EXCHANGE_RATE_API_KEY } })
