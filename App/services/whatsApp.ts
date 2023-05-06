@@ -20,7 +20,7 @@ const getMessage = async() => {
 	const message = await getFinancialInfo()
 	if(message) {
 		return {
-			text: `Bot: ${message}`,
+			text: message,
 		}
 	}
 }
