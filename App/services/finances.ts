@@ -16,9 +16,9 @@ const buildMessage = ({ base, rates }) => {
 
 const getDelta = (rate): string => {
 	const trend = rate.start_rate === rate.end_rate ? '🟰'
-		: rate.start_rate < rate.end_rate ? '📉' : '📈'
+		: rate.start_rate > rate.end_rate ? '📉' : '📈'
 
-	return `(${rate.end_rate - rate.start_rate}) ${trend}`
+	return `(${rate.change.toFixed(3)}) ${trend}`
 }
 
 const calculateFinanceInfo = async() => {
