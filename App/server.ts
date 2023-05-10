@@ -25,3 +25,5 @@ module.exports.run = async(event) => {
 		console.log('Message failed to send')
 	}
 }
+
+module.exports.run()

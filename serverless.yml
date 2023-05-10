@@ -37,8 +37,8 @@ functions:
   cronHandler:
     handler: App/server.run
     events:
-      # Invoke Lambda function every day at 10 AM UTC-5
-      - schedule: cron(0 15 * * ? *)
+      # Invoke Lambda function every weekday at 10 AM UTC-5
+      - schedule: cron(0 15 ? * MON-FRI *)
 
 resources:
   Resources:
