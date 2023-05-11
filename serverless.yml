@@ -6,6 +6,7 @@ provider:
   runtime: nodejs18.x
   region: us-east-2
   memorySize: 128
+  timeout: 20
   iam:
     role:
       statements:
