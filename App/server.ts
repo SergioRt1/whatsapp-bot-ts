@@ -1,13 +1,13 @@
 import * as dotenv from 'dotenv'
 dotenv.config()
 
-import {startSock} from './api/whatsApp'
-import {sendMessage} from './services/whatsApp'
+import { startSock } from './api/whatsApp'
+import { sendMessage } from './services/whatsApp'
 
 const groupName = process.env.GROUP_NAME || 'bas'
 const sockPromise = startSock()
 
-const getWhatsApp = async () => {
+const getWhatsApp = async() => {
 	const sock = await sockPromise
 	await sock.waitForConnectionUpdate((ev) => {
 		return ev.isOnline || ev.connection === 'open'
@@ -15,7 +15,7 @@ const getWhatsApp = async () => {
 	return sock
 }
 
-module.exports.run = async(event) => {
+module.exports.run = async() => {
 	const whatsAppPromise = getWhatsApp()
 	const response = await sendMessage(groupName, whatsAppPromise)
 
@@ -25,5 +25,3 @@ module.exports.run = async(event) => {
 		console.log('Message failed to send')
 	}
 }
-
-module.exports.run()

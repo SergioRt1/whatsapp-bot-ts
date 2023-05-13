@@ -1,5 +1,5 @@
-import { getFinancialInfo } from './finances'
 import { GroupMetadata } from '../../src'
+import { getFinancialInfo } from './finances'
 
 export const sendMessage = async(contactName: string, whatsAppPromise) => {
 	const messagePromise = getMessage()

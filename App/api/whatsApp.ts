@@ -2,7 +2,7 @@ import { Boom } from '@hapi/boom'
 import NodeCache from 'node-cache'
 import makeWASocket, { fetchLatestBaileysVersion, makeCacheableSignalKeyStore, makeInMemoryStore, useMultiFileAuthState } from '../../src'
 import MAIN_LOGGER from '../../src/Utils/logger'
-import { useExternalMultiFileAuthState } from "../../src/Utils/use-external-multi-file-auth-state";
+import { useExternalMultiFileAuthState } from '../../src/Utils/use-external-multi-file-auth-state'
 
 const logger = MAIN_LOGGER.child({ })
 logger.level = 'trace'
@@ -49,8 +49,6 @@ const startSock = async() => {
 		},
 		msgRetryCounterCache,
 		generateHighQualityLinkPreview: true,
-		shouldSyncHistoryMessage: () => { return false },
-		syncFullHistory: false,
 	})
 
 	store?.bind(sock.ev)

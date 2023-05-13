@@ -1,20 +1,29 @@
 {
-  "name": "@adiwajshing/baileys",
-  "version": "5.0.0",
+  "name": "@whiskeysockets/baileys",
+  "version": "6.0.0",
   "description": "WhatsApp API",
-  "homepage": "https://github.com/adiwajshing/Baileys",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "keywords": [
     "whatsapp",
     "js-whatsapp",
     "whatsapp-api",
     "whatsapp-web",
-    "whatsapp",
     "whatsapp-chat",
     "whatsapp-group",
     "automation",
     "multi-device"
+  ],
+  "homepage": "https://github.com/WhiskeySockets/Baileys",
+  "repository": {
+    "url": "git@github.com:WhiskeySockets/Baileys.git"
+  },
+  "license": "MIT",
+  "author": "Adhiraj Singh",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*",
+    "WAProto/*",
+    "WASignalGroup/*.js"
   ],
   "scripts": {
     "start": "node --inspect -r ts-node/register App/server.ts",
@@ -39,13 +48,37 @@
     "axios": "^1.3.3",
     "dotenv": "^16.0.3",
     "futoin-hkdf": "^1.5.1",
-    "libsignal": "git+https://github.com/adiwajshing/libsignal-node",
+    "libsignal": "https://github.com/adiwajshing/libsignal-node.git",
     "music-metadata": "^7.12.3",
     "node-cache": "^5.1.2",
     "pino": "^7.0.0",
     "protobufjs": "^6.11.3",
     "serverless-dotenv-plugin": "^6.0.0",
     "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "@adiwajshing/eslint-config": "https://github.com/adiwajshing/eslint-config.git",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@types/got": "^9.6.11",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.0.0",
+    "@types/sharp": "^0.29.4",
+    "@types/ws": "^8.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.0.0",
+    "graceful-fs": "4.2.6",
+    "jest": "^27.0.6",
+    "jimp": "^0.16.1",
+    "link-preview-js": "^3.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "release-it": "^15.10.3",
+    "serverless": "^3.30.1",
+    "serverless-plugin-typescript": "^2.1.4",
+    "sharp": "^0.30.5",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.8.1",
+    "typedoc": "^0.24.6",
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -61,42 +94,15 @@
     "jimp": {
       "optional": true
     },
+    "link-preview-js": {
+      "optional": true
+    },
     "qrcode-terminal": {
       "optional": true
     },
     "sharp": {
       "optional": true
-    },
-    "link-preview-js": {
-      "optional": true
     }
   },
-  "files": [
-    "lib/*",
-    "WAProto/*.js",
-    "WASignalGroup/*.js"
-  ],
-  "devDependencies": {
-    "@adiwajshing/eslint-config": "git+https://github.com/adiwajshing/eslint-config",
-    "@adiwajshing/keyed-db": "^0.2.4",
-    "@types/got": "^9.6.11",
-    "@types/jest": "^27.5.1",
-    "@types/node": "^16.0.0",
-    "@types/sharp": "^0.29.4",
-    "@types/ws": "^8.0.0",
-    "eslint": "^8.0.0",
-    "graceful-fs": "4.2.6",
-    "jest": "^27.0.6",
-    "jimp": "^0.16.1",
-    "link-preview-js": "^3.0.4",
-    "protobufjs-cli": "^1.1.1",
-    "qrcode-terminal": "^0.12.0",
-    "serverless": "^3.30.1",
-    "serverless-plugin-typescript": "^2.1.4",
-    "sharp": "^0.30.5",
-    "ts-jest": "^28.0.8",
-    "ts-node": "^10.8.1",
-    "typedoc": "^0.24.6",
-    "typescript": "^5.0.4"
-  }
+  "packageManager": "yarn@1.22.19"
 }

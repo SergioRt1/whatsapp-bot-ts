@@ -1,5 +1,5 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb'
-import { PutCommand, GetCommand, DeleteCommand } from '@aws-sdk/lib-dynamodb'
+import { DeleteCommand, GetCommand, PutCommand } from '@aws-sdk/lib-dynamodb'
 
 const TABLE_NAME = process.env.DYNAMODB_TABLE!
 const dynamoDB = new DynamoDBClient({ region: 'us-east-2' })
@@ -38,7 +38,7 @@ export const getDocument = async(id: string) => {
 		if(data.$metadata.httpStatusCode === 200 && data.Item?.data) {
 			return data.Item.data
 		} else {
-			console.error('Item not found')
+			console.error(`Item not found: ${id}`)
 		}
 	} catch(err) {
 		console.error('Unable to get item:', err)

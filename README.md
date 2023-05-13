@@ -12,24 +12,13 @@ it to run in the cloud, specifically in a free tier 128MB Lambda, without Seleni
 
 ## Baileys - Typescript/Javascript WhatsApp Web API
 
-Baileys does not require Selenium or any other browser to be interface with WhatsApp Web, it does so directly using a *
-*WebSocket**. Not running Selenium or Chromimum saves you like **half a gig** of ram :/
-
+Baileys does not require Selenium or any other browser to be interface with WhatsApp Web, it does so directly using a **WebSocket**.
+Not running Selenium or Chromimum saves you like **half a gig** of ram :/
 Baileys supports interacting with the multi-device & web versions of WhatsApp.
+Thank you to [@pokearaujo](https://github.com/pokearaujo/multidevice) for writing his observations on the workings of WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) for writing his observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://github.com/Rhymen/go-whatsapp/) for the __go__ implementation.
 
-Thank you to [@pokearaujo](https://github.com/pokearaujo/multidevice) for writing his observations on the workings of
-WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) for writing his
-observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://github.com/Rhymen/go-whatsapp/) for the _
-_go__ implementation.
 
-Baileys is type-safe, extensible and simple to use. If you require more functionality than provided, it's super easy to
-write an extension.
-
-If you're interested in building a WhatsApp bot, you may wanna check
-out [WhatsAppInfoBot](https://github.com/adiwajshing/WhatsappInfoBot) and an actual bot built with
-it, [Messcat](https://github.com/ashokatechmin/Messcat).
-
-**Read the docs [here](https://adiwajshing.github.io/Baileys)**
+**Read the docs [here](https://whiskeysockets.github.io/docs/intro)**
 **Join the Discord [here](https://discord.gg/WeJM5FP9GG)**
 
 ## Deployment :rocket:
