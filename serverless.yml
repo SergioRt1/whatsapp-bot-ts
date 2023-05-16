@@ -5,8 +5,8 @@ provider:
   name: aws
   runtime: nodejs18.x
   region: us-east-2
-  memorySize: 128
-  timeout: 12
+  memorySize: 160
+  timeout: 20
   iam:
     role:
       statements:
