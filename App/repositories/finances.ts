@@ -18,17 +18,21 @@ export type ExchangeRates = {
 	}
 }
 
-const getISODate = (date) => {
-	return date.toISOString().split('T')[0]
+const getDate = (date) => {
+	const year = date.getFullYear()
+	const month = date.getMonth() + 1 // Months are zero-based
+	const day = date.getDate()
+	return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`
 }
 
-export const getLatest = async (base, currencies): Promise<ExchangeRates|undefined> => {
+export const getLatest = async(base, currencies): Promise<ExchangeRates|undefined> => {
 	try {
 		const today = new Date()
+		today.setDate(today.getDate() - 1)
 		const yesterday = new Date(today)
 		yesterday.setDate(yesterday.getDate() - 1)
 
-		const response = await instance.get<ExchangeRates>(`${exchangeRatesBaseURL}/fluctuation?start_date=${getISODate(yesterday)}&end_date=${getISODate(today)}&symbols=${currencies.join(',')}&base=${base}`)
+		const response = await instance.get<ExchangeRates>(`${exchangeRatesBaseURL}/fluctuation?start_date=${getDate(yesterday)}&end_date=${getDate(today)}&symbols=${currencies.join(',')}&base=${base}`)
 		if(response) {
 			return response.data
 		}
