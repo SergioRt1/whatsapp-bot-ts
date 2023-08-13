@@ -40,6 +40,8 @@ functions:
     events:
       # Invoke Lambda function every weekday at 10 AM UTC-5
       - schedule: cron(0 15 ? * MON-FRI *)
+      # Invoke Lambda function every weekday at 5 PM UTC-5
+      - schedule: cron(0 22 ? * MON-FRI *)
 
 resources:
   Resources:
