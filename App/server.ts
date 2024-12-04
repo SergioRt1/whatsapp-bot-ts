@@ -15,6 +15,7 @@ const getWhatsApp = async() => {
 	return sock
 }
 
+// Run with: serverless invoke local --function cronHandler
 module.exports.run = async() => {
 	const whatsAppPromise = getWhatsApp()
 	const response = await sendMessage(groupName, whatsAppPromise)
